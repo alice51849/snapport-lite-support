@@ -37,7 +37,7 @@
       <details><summary data-i18n="q4">Are my photos uploaded anywhere?</summary><p data-i18n="a4">No. Snapport Lite processes photos on your iPhone with Apple Vision, person segmentation, Core Image, and PDFKit. There is no account, no cloud processing, no ads, and no tracking.</p></details>
       <details><summary data-i18n="q5">What is Check for Template Updates?</summary><p data-i18n="a5">It is optional and user-initiated. When you tap it, Snapport Lite downloads a public JSON list of common photo sizes and sends no personal data.</p></details>
       <details><summary data-i18n="q6">What export formats are supported?</summary><p data-i18n="a6">Snapport Lite exports JPEG, PNG, and PDF, and can create print-ready 4×6, A4, and Letter sheets with cut guides.</p></details>
-      <details><summary data-i18n="q7">Is Snapport Lite a subscription?</summary><p data-i18n="a7">No. The app is free to download with one US 2×2 starter session. One US$4.99 lifetime unlock enables additional sessions and export. No subscription, ads, or tracking.</p></details>
+      <details><summary data-i18n="q7">Is Snapport Lite a subscription?</summary><p data-i18n="a7">No. Every template and editing tool is available, and your first successful export is free. One US$4.99 lifetime unlock enables unlimited additional exports. No subscription, ads, or tracking.</p></details>
       <details><summary data-i18n="q8">Which devices and languages are supported?</summary><p data-i18n="a8">Snapport Lite supports iPhone and iPad on iOS 17 or later. The app declares all 50 App Store locales.</p></details>
     </div></section>
     <section class="wrap doc reveal"><article class="card"><h2 data-i18n="contactTitle">Contact</h2><p data-i18n="contactText">Email us at hourstag.app@gmail.com. Please include your device model, iOS version, and a short description of the issue.</p></article></section>
@@ -90,7 +90,7 @@
     "q6": "What export formats are supported?",
     "a6": "Snapport Lite exports JPEG, PNG, and PDF, and can create print-ready 4×6, A4, and Letter sheets with cut guides.",
     "q7": "Is Snapport Lite a subscription?",
-    "a7": "No. The app is free to download with one US 2×2 starter session. One US$4.99 lifetime unlock enables additional sessions and export. No subscription, ads, or tracking.",
+    "a7": "No. Every template and editing tool is available, and your first successful export is free. One US$4.99 lifetime unlock enables unlimited additional exports. No subscription, ads, or tracking.",
     "q8": "Which devices and languages are supported?",
     "a8": "Snapport Lite supports iPhone and iPad on iOS 17 or later. The app declares all 50 App Store locales."
   },
@@ -127,7 +127,7 @@
     "q6": "支援哪些輸出格式？",
     "a6": "Snapport Lite 可輸出 JPEG、PNG 與 PDF，並可建立包含裁切線的 4×6、A4 與 Letter 列印版面。",
     "q7": "Snapport Lite 是訂閱制嗎？",
-    "a7": "不是。App 可免費下載並提供一次 US 2×2 引導體驗；US$4.99 永久解鎖可啟用更多製作與輸出。無訂閱、無廣告、無追蹤。",
+    "a7": "不是。所有證件格式與編輯工具皆可使用，第一次成功輸出免費；US$4.99 永久解鎖後可無限輸出。無訂閱、廣告或追蹤。",
     "q8": "支援哪些裝置與語言？",
     "a8": "Snapport Lite 支援 iOS 17 或更新版本的 iPhone 與 iPad，App 已宣告完整 50 個 App Store locale。"
   },
@@ -164,7 +164,7 @@
     "q6": "対応している書き出し形式は？",
     "a6": "Snapport Lite は JPEG、PNG、PDF に書き出しでき、カットガイド付きの 4×6、A4、Letter 印刷シートを作成できます。",
     "q7": "Snapport Lite はサブスクリプションですか？",
-    "a7": "いいえ。無料ダウンロードでUS 2×2ガイド体験1回付き。US$4.99の永久解除で追加作成と書き出しが使えます。サブスク・広告・追跡はありません。",
+    "a7": "いいえ。全テンプレートと編集機能を利用でき、最初の書き出しは無料です。US$4.99の永久解除で以降は無制限に書き出せます。サブスク・広告・追跡はありません。",
     "q8": "対応端末と言語は？",
     "a8": "Snapport LiteはiOS 17以降のiPhoneとiPadに対応し、アプリはApp Storeの全50 localeを宣言しています。"
   },
@@ -201,7 +201,7 @@
     "q6": "어떤 내보내기 형식을 지원하나요?",
     "a6": "Snapport Lite는 JPEG, PNG, PDF로 내보내며 자르기 가이드가 있는 4×6, A4, Letter 인쇄 시트를 만들 수 있습니다.",
     "q7": "Snapport Lite는 구독인가요?",
-    "a7": "아니요. 무료 다운로드와 US 2×2 가이드 체험 1회를 제공합니다. US$4.99 영구 해제로 추가 제작과 내보내기를 이용할 수 있습니다. 구독·광고·추적은 없습니다.",
+    "a7": "아니요. 모든 템플릿과 편집 도구를 이용할 수 있으며 첫 내보내기는 무료입니다. US$4.99 영구 해제 후 무제한으로 내보낼 수 있습니다. 구독·광고·추적은 없습니다.",
     "q8": "지원 기기와 언어는 무엇인가요?",
     "a8": "Snapport Lite는 iOS 17 이상 iPhone과 iPad를 지원하며, 앱은 App Store의 전체 50개 locale을 선언합니다."
   }
@@ -244,14 +244,14 @@
       btn.setAttribute('aria-label', (dict.switchTo || 'Switch language to') + ' ' + langNames[btn.getAttribute('data-lang')]);
     });
   }
-  window.setSnapport LiteLang = function (lang) {
+  window.setSnapportLiteLang = function (lang) {
     if (!supported.includes(lang)) return;
     localStorage.setItem('snapport_lang', lang);
     applyLang(lang);
   };
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () { window.setSnapport LiteLang(btn.getAttribute('data-lang')); });
+      btn.addEventListener('click', function () { window.setSnapportLiteLang(btn.getAttribute('data-lang')); });
     });
     applyLang(detectLang());
     const reveal = function () {

@@ -244,14 +244,14 @@
       btn.setAttribute('aria-label', (dict.switchTo || 'Switch language to') + ' ' + langNames[btn.getAttribute('data-lang')]);
     });
   }
-  window.setSnapport LiteLang = function (lang) {
+  window.setSnapportLiteLang = function (lang) {
     if (!supported.includes(lang)) return;
     localStorage.setItem('snapport_lang', lang);
     applyLang(lang);
   };
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () { window.setSnapport LiteLang(btn.getAttribute('data-lang')); });
+      btn.addEventListener('click', function () { window.setSnapportLiteLang(btn.getAttribute('data-lang')); });
     });
     applyLang(detectLang());
     const reveal = function () {
