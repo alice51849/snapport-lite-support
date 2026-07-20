@@ -1,387 +1,118 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Snapport Lite — Passport, Visa & ID Photos at Home</title>
-  <meta name="description" content="Snapport Lite is a privacy-first iPhone and iPad studio for passport, visa, and ID photos. Start free, then unlock forever. No subscription, ads, tracking, cloud, or account.">
+  <title>Snapport Lite — Passport, Visa &amp; ID Photos at Home</title>
+  <meta name="description" content="Create passport, visa, and ID photos privately on iPhone and iPad. Start with one free export, then unlock forever.">
+  <link rel="canonical" href="https://alice51849.github.io/snapport-lite-support/">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
   <div class="bg"><span class="blob"></span></div>
   <header>
     <div class="wrap nav">
       <a class="brand" href="index.html"><img class="icon" src="icon.png" alt="Snapport Lite"><span>Snapport Lite</span></a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="index.html#features" data-i18n="navFeatures">Features</a>
+        <a href="#features" data-i18n="navFeatures">Templates</a>
         <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
         <a href="support.html" data-i18n="navSupport">Support</a>
-        <div class="lang" aria-label="Language selector">
-          <button class="btn-sm lang-btn" type="button" data-lang="en">EN</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="zh-Hant">中文</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="ja">日本語</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="ko">한국어</button>
-        </div>
-        <a class="btn btn-sm" href="https://apps.apple.com/search?term=Snapport Lite" data-i18n="navDownload">Download</a>
+        <div class="lang"><select id="language-select" aria-label="Language"></select></div>
+        <a class="btn btn-sm" href="https://apps.apple.com/app/id6792856304" data-i18n="navDownload">App Store</a>
       </nav>
     </div>
   </header>
   <main>
     <section class="hero wrap reveal">
-      <img class="icon app-icon" src="icon.png" alt="Snapport Lite app icon">
-      <span class="eyebrow" data-i18n="heroEyebrow">Private ID photo studio</span>
-      <h1 data-i18n="heroTitle">Passport, visa & ID photos at home.</h1>
-      <p class="tagline" data-i18n="heroTagline">All templates and tools. Your first export is free.</p>
-      <p class="sub" data-i18n="heroSub">Snapport Lite helps you crop, align, adjust, replace backgrounds, and export official-style photos on your iPhone or iPad — fully on device.</p>
-      <div class="cta-row"><a class="btn" href="https://apps.apple.com/search?term=Snapport Lite"><span class="store"><span class="appstore-sub" data-i18n="appStoreSmall">Get it on the</span><b data-i18n="appStoreBig">App Store</b></span></a><a class="btn btn-ghost" href="#features" data-i18n="learnMore">Learn more</a></div>
-      <div class="badges"><span class="pill" data-i18n="badge1">No data collected</span><span class="pill" data-i18n="badge2">Fully offline</span><span class="pill" data-i18n="badge3">No ads or tracking</span><span class="pill" data-i18n="badge4">Lifetime unlock: US$4.99</span></div>
-      <p class="notice" data-i18n="complianceText">Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.</p>
-      <div class="device-stage" aria-hidden="true"><div class="device"><div class="screen"><span class="scr-label" data-i18n="screenLabel">Snapport Lite studio</span><div class="scr-big"><span data-i18n="screenBig">35 × 45</span><br><span data-i18n="screenUnit">mm template</span></div><div class="scr-grid"><div class="scr-card"><span class="ic"></span><b data-i18n="screenDup">Face guides</b><small>Vision</small></div><div class="scr-card"><span class="ic"></span><b data-i18n="screenSimilar">Backgrounds</b><small>4 colors</small></div><div class="scr-card"><span class="ic"></span><b data-i18n="screenBlur">Print sheets</b><small>4×6/A4</small></div><div class="scr-card"><span class="ic"></span><b data-i18n="screenLarge">PDF export</b><small>300 DPI</small></div></div><div class="swatches"><span class="swatch white"></span><span class="swatch gray"></span><span class="swatch blue"></span><span class="swatch red"></span></div><div class="scr-cta" data-i18n="screenCta">Review official rules</div></div></div></div>
+      <img class="icon app-icon" src="icon.png" alt="Snapport Lite">
+      <span class="eyebrow" data-i18n="heroEyebrow">Your photos stay on your iPhone.</span>
+      <h1 data-i18n="heroTitle">Make ID photos at home</h1>
+      <p class="tagline" data-i18n="heroTagline">Passport, visa &amp; ID photos — print-ready.</p>
+      <p class="sub" data-i18n="heroSub">Make passport, visa, and document photos with guided sizing, background tools, and print-ready export.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://apps.apple.com/app/id6792856304" data-i18n="navDownload">App Store</a>
+        <a class="btn btn-ghost" href="#features" data-i18n="learnMore">See all</a>
+      </div>
+      <div class="badges">
+        <span class="pill" data-i18n="freeTitle">Free version supports 1 export</span>
+        <span class="pill" data-i18n="noAds">No ads, no tracking</span>
+        <span class="pill" data-i18n="privacyNoCloud">No cloud upload</span>
+      </div>
     </section>
-    <section id="features" class="wrap reveal"><div class="section-title"><span class="eyebrow" data-i18n="featuresEyebrow">Studio tools</span><h2 data-i18n="featuresTitle">Built for careful, repeatable ID photos.</h2><p data-i18n="featuresSub">Choose a common template or create your own exact size, then use identity-safe guides and exports.</p></div><div class="grid"><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg></span><h3 data-i18n="f1Title">Common templates</h3><p data-i18n="f1Text">Includes common sizes for the US, UK, Schengen/EU, Japan, Korea, Taiwan, China, Canada, Australia, India, plus ID card, student ID, resume, and work badge photos.</p></article><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19 19 5M7 5H5v2M17 19h2v-2M9 15l-2-2M13 11l-2-2M17 7l-2-2"/></svg></span><h3 data-i18n="f2Title">Custom sizes</h3><p data-i18n="f2Text">Create any photo size in mm, inch, or pixels with any DPI for less common applications.</p></article><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4"/><path d="M5 20c1-4 3.5-6 7-6s6 2 7 6M3 7V3h4M17 3h4v4"/></svg></span><h3 data-i18n="f3Title">Face alignment guides</h3><p data-i18n="f3Text">On-device Apple Vision face detection helps position head top, eye line, and chin guides while you remain in control.</p></article><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17 12 5l8 12-8 3-8-3Z"/><path d="M8 15c3-2 5-2 8 0"/></svg></span><h3 data-i18n="f4Title">Background replacement</h3><p data-i18n="f4Text">Use on-device person segmentation to keep the original background or choose white, gray, blue, or red.</p></article><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4v6M6 14v6"/></svg></span><h3 data-i18n="f5Title">Light adjustments</h3><p data-i18n="f5Text">Apply identity-safe brightness, contrast, warmth, and sharpness adjustments without changing who you are.</p></article><article class="card"><span class="tile" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 8V4h10v4M6 17H4v-7h16v7h-2M7 14h10v6H7z"/></svg></span><h3 data-i18n="f6Title">Export & print</h3><p data-i18n="f6Text">Export JPEG, PNG, or PDF and create print-ready 4×6, A4, or Letter sheets with cut guides.</p></article></div></section>
-    <section class="wrap reveal"><div class="section-title"><span class="eyebrow" data-i18n="privacyEyebrow">Privacy first</span><h2 data-i18n="privacyTitle">No cloud studio. No account. No data collected.</h2><p data-i18n="privacySub">Face detection, person segmentation, image adjustments, PDF generation, and print sheets run locally with Apple Vision, Core Image, and PDFKit.</p></div><div class="bullets"><div class="bullet"><span class="dot">1</span><div><b data-i18n="b1">On-device processing</b><br><span data-i18n="b1Text">Your photos are processed on your iPhone and are not uploaded.</span></div></div><div class="bullet"><span class="dot">2</span><div><b data-i18n="b2">No account or tracking</b><br><span data-i18n="b2Text">Snapport Lite has no sign-in, ads, analytics, tracking SDKs, or cloud processing.</span></div></div><div class="bullet"><span class="dot">3</span><div><b data-i18n="b3">Optional template updates</b><br><span data-i18n="b3Text">Only if you tap Check for Template Updates, the app downloads a public JSON list and sends no personal data.</span></div></div><div class="bullet"><span class="dot">4</span><div><b data-i18n="b4">2026 baseline</b><br><span data-i18n="b4Text">Templates are maintained on a 2026 baseline for offline-friendly use.</span></div></div></div></section>
-    <section class="wrap reveal"><div class="band"><h2 data-i18n="priceTitle">All formats. One free export.</h2><p data-i18n="priceSub">Use every template, custom size, and editing tool. Your first successful export is free; lifetime unlock US$4.99 enables unlimited additional exports. No subscription, ads, or tracking. Bundle ID: com.alice51849.SnapportLite.</p><div class="specs"><span class="mini">iPhone + iPad</span><span class="mini">iOS 17+</span><span class="mini">US$4.99 unlock</span><span class="mini">No subscription</span></div><p class="price" data-i18n="price">One purchase. Yours forever.</p></div></section>
-    <section class="wrap reveal"><div class="band"><h2 data-i18n="complianceTitle">Important compliance note</h2><p data-i18n="complianceText">Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.</p></div></section>
-    <section class="wrap reveal"><div class="band"><h2 data-i18n="supportTitle">Need help?</h2><p data-i18n="supportSub">Questions about templates, privacy, exports, print sheets, or the optional update check? Visit support or email us.</p><div class="cta-row"><a class="btn" href="support.html" data-i18n="supportBtn">Open support</a></div></div></section>
+
+    <section id="features" class="wrap reveal">
+      <div class="section-title">
+        <span class="eyebrow" data-i18n="navFeatures">Templates</span>
+        <h2 data-i18n="heroTagline">Passport, visa &amp; ID photos — print-ready.</h2>
+        <p data-i18n="heroSub">Make passport, visa, and document photos with guided sizing, background tools, and print-ready export.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><h3 data-i18n="templatesTitle">Templates</h3><p data-i18n="templatesText">Check only downloads a public list of common sizes — no personal data is sent.</p></article>
+        <article class="card"><h3 data-i18n="cropTitle">Crop &amp; Align</h3><p data-i18n="cropText">Align your face inside the guide and review official requirements.</p></article>
+        <article class="card"><h3 data-i18n="backgroundTitle">Background</h3><p data-i18n="backgroundText">Background removal may need review.</p></article>
+        <article class="card"><h3 data-i18n="adjustTitle">Adjust</h3><p data-i18n="adjustText">Keep your appearance natural for official documents.</p></article>
+        <article class="card"><h3 data-i18n="exportTitle">Export</h3><p data-i18n="exportText">Export a single photo or a print sheet.</p></article>
+        <article class="card"><h3 data-i18n="freeTitle">Free version supports 1 export</h3><p data-i18n="freeSub">One purchase · yours forever · no subscription</p></article>
+      </div>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="section-title">
+        <span class="eyebrow" data-i18n="navPrivacy">Privacy</span>
+        <h2 data-i18n="privacyIntro">Your photos stay on your iPhone.</h2>
+      </div>
+      <div class="bullets">
+        <div class="bullet"><span class="dot">1</span><div data-i18n="privacyOnDevice">On-device editing</div></div>
+        <div class="bullet"><span class="dot">2</span><div data-i18n="privacyNoAccount">No account</div></div>
+        <div class="bullet"><span class="dot">3</span><div data-i18n="privacyNoCloud">No cloud upload</div></div>
+        <div class="bullet"><span class="dot">4</span><div data-i18n="privacyNoTracking">No tracking</div></div>
+      </div>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="band">
+        <h2 data-i18n="freeTitle">Free version supports 1 export</h2>
+        <p data-i18n="freeSub">One purchase · yours forever · no subscription</p>
+        <div class="specs">
+          <span class="mini">iPhone + iPad</span>
+          <span class="mini">iOS 17+</span>
+          <span class="mini" data-i18n="noAds">No ads, no tracking</span>
+        </div>
+        <p class="price" data-i18n="freeSub">One purchase · yours forever · no subscription</p>
+      </div>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="band">
+        <h2 data-i18n="disclaimerTitle">Requirements disclaimer</h2>
+        <p data-i18n="disclaimerText">Photo requirements vary by country, agency, and application type. Review the official requirements before submitting.</p>
+      </div>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="band">
+        <h2 data-i18n="supportTitle">Support</h2>
+        <p data-i18n="supportIntro">How to take a good ID photo</p>
+        <div class="cta-row"><a class="btn" href="support.html" data-i18n="navSupport">Support</a></div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="wrap">
       <div class="foot">
         <a class="brand" href="index.html"><img class="icon" src="icon.png" alt="Snapport Lite"><span>Snapport Lite</span></a>
         <div class="foot-links">
-          <a href="index.html" data-i18n="footHome">Home</a>
-          <a href="privacy.html" data-i18n="footPrivacy">Privacy</a>
-          <a href="support.html" data-i18n="footSupport">Support</a>
+          <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+          <a href="support.html" data-i18n="navSupport">Support</a>
           <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a>
         </div>
       </div>
-      <p class="copy" data-i18n="copy">© 2026 Cait518. All rights reserved.</p>
+      <p class="copy">© <span data-i18n="copyright">2026 Cait518</span></p>
     </div>
   </footer>
-<script>window.SNAPPORT_I18N = {
-  "en": {
-    "navFeatures": "Features",
-    "navPrivacy": "Privacy",
-    "navSupport": "Support",
-    "navDownload": "Download",
-    "footHome": "Home",
-    "footPrivacy": "Privacy",
-    "footSupport": "Support",
-    "copy": "© 2026 Cait518. All rights reserved.",
-    "switchTo": "Switch language to",
-    "appStoreSmall": "Get it on the",
-    "appStoreBig": "App Store",
-    "learnMore": "Learn more",
-    "metaTitle": "Snapport Lite — Passport, Visa & ID Photos at Home",
-    "metaDescription": "Snapport Lite is a privacy-first iPhone and iPad studio for passport, visa, and ID photos. Start free, then unlock forever. No subscription, ads, tracking, cloud, or account.",
-    "heroEyebrow": "Private ID photo studio",
-    "heroTitle": "Passport, visa & ID photos at home.",
-    "heroTagline": "All templates and tools. Your first export is free.",
-    "heroSub": "Snapport Lite helps you crop, align, adjust, replace backgrounds, and export official-style photos on your iPhone or iPad — fully on device.",
-    "badge1": "No data collected",
-    "badge2": "Fully offline",
-    "badge3": "No ads or tracking",
-    "badge4": "Lifetime unlock: US$4.99",
-    "screenLabel": "Snapport Lite studio",
-    "screenBig": "35 × 45",
-    "screenUnit": "mm template",
-    "screenDup": "Face guides",
-    "screenSimilar": "Backgrounds",
-    "screenBlur": "Print sheets",
-    "screenLarge": "PDF export",
-    "screenCta": "Review official rules",
-    "featuresEyebrow": "Studio tools",
-    "featuresTitle": "Built for careful, repeatable ID photos.",
-    "featuresSub": "Choose a common template or create your own exact size, then use identity-safe guides and exports.",
-    "f1Title": "Common templates",
-    "f1Text": "Includes common sizes for the US, UK, Schengen/EU, Japan, Korea, Taiwan, China, Canada, Australia, India, plus ID card, student ID, resume, and work badge photos.",
-    "f2Title": "Custom sizes",
-    "f2Text": "Create any photo size in mm, inch, or pixels with any DPI for less common applications.",
-    "f3Title": "Face alignment guides",
-    "f3Text": "On-device Apple Vision face detection helps position head top, eye line, and chin guides while you remain in control.",
-    "f4Title": "Background replacement",
-    "f4Text": "Use on-device person segmentation to keep the original background or choose white, gray, blue, or red.",
-    "f5Title": "Light adjustments",
-    "f5Text": "Apply identity-safe brightness, contrast, warmth, and sharpness adjustments without changing who you are.",
-    "f6Title": "Export & print",
-    "f6Text": "Export JPEG, PNG, or PDF and create print-ready 4×6, A4, or Letter sheets with cut guides.",
-    "privacyEyebrow": "Privacy first",
-    "privacyTitle": "No cloud studio. No account. No data collected.",
-    "privacySub": "Face detection, person segmentation, image adjustments, PDF generation, and print sheets run locally with Apple Vision, Core Image, and PDFKit.",
-    "b1": "On-device processing",
-    "b1Text": "Your photos are processed on your iPhone or iPad and are not uploaded.",
-    "b2": "No account or tracking",
-    "b2Text": "Snapport Lite has no sign-in, ads, analytics, tracking SDKs, or cloud processing.",
-    "b3": "Optional template updates",
-    "b3Text": "Only if you tap Check for Template Updates, the app downloads a public JSON list and sends no personal data.",
-    "b4": "2026 baseline",
-    "b4Text": "Templates are maintained on a 2026 baseline for offline-friendly use.",
-    "priceTitle": "All formats. One free export.",
-    "priceSub": "Use every template, custom size, and editing tool. Your first successful export is free; lifetime unlock US$4.99 enables unlimited additional exports. No subscription, ads, or tracking. Bundle ID: com.alice51849.SnapportLite.",
-    "price": "One purchase. Yours forever.",
-    "complianceTitle": "Important compliance note",
-    "complianceText": "Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "supportTitle": "Need help?",
-    "supportSub": "Questions about templates, privacy, exports, print sheets, or the optional update check? Visit support or email us.",
-    "supportBtn": "Open support"
-  },
-  "zh-Hant": {
-    "navFeatures": "功能",
-    "navPrivacy": "隱私權",
-    "navSupport": "支援",
-    "navDownload": "下載",
-    "footHome": "首頁",
-    "footPrivacy": "隱私權",
-    "footSupport": "支援",
-    "copy": "© 2026 Cait518。保留所有權利。",
-    "switchTo": "切換語言至",
-    "appStoreSmall": "前往",
-    "appStoreBig": "App Store",
-    "learnMore": "了解更多",
-    "metaTitle": "Snapport Lite — 在家製作護照、簽證與證件照",
-    "metaDescription": "Snapport Lite 是隱私優先的 iPhone 與 iPad 證件照工作室。所有格式與編輯工具皆開放，第一次成功輸出免費，無訂閱、廣告、追蹤、雲端或帳號。",
-    "heroEyebrow": "私密證件照工作室",
-    "heroTitle": "在家製作護照、簽證與證件照。",
-    "heroTagline": "所有證件與編輯工具皆開放，第一次輸出免費。",
-    "heroSub": "Snapport Lite 協助你在 iPhone 或 iPad 上裁切、對齊、微調、更換背景並輸出證件照風格照片 — 全部在裝置端完成。",
-    "badge1": "不收集資料",
-    "badge2": "完全離線",
-    "badge3": "無廣告、無追蹤",
-    "badge4": "永久解鎖：US$4.99",
-    "screenLabel": "Snapport Lite 工作室",
-    "screenBig": "35 × 45",
-    "screenUnit": "mm 範本",
-    "screenDup": "臉部參考線",
-    "screenSimilar": "背景",
-    "screenBlur": "列印排版",
-    "screenLarge": "PDF 輸出",
-    "screenCta": "請確認官方規範",
-    "featuresEyebrow": "工作室工具",
-    "featuresTitle": "為謹慎、可重複的證件照流程打造。",
-    "featuresSub": "選擇常用範本或建立精確自訂尺寸，再使用安全的對齊參考與輸出工具。",
-    "f1Title": "常用尺寸範本",
-    "f1Text": "包含美國、英國、申根／歐盟、日本、韓國、台灣、中國、加拿大、澳洲、印度，以及身分證、學生證、履歷與工作證照片常用尺寸。",
-    "f2Title": "自訂尺寸",
-    "f2Text": "可用 mm、inch 或 px 建立任意照片尺寸，並設定任何 DPI，適合較少見的申請需求。",
-    "f3Title": "臉部對齊參考線",
-    "f3Text": "裝置端 Apple Vision 臉部偵測可協助放置頭頂、眼線與下巴參考線，最後仍由你掌控。",
-    "f4Title": "背景替換",
-    "f4Text": "使用裝置端人物分割，可保留原背景，或選擇白、灰、藍、紅背景。",
-    "f5Title": "輕量調整",
-    "f5Text": "可進行不改變身分特徵的亮度、對比、色溫與銳利度調整。",
-    "f6Title": "輸出與列印",
-    "f6Text": "可輸出 JPEG、PNG 或 PDF，並產生 4×6、A4 或 Letter 的列印版面與裁切線。",
-    "privacyEyebrow": "隱私優先",
-    "privacyTitle": "沒有雲端工作室。沒有帳號。不收集資料。",
-    "privacySub": "臉部偵測、人物分割、影像調整、PDF 產生與列印版面都使用 Apple Vision、Core Image 與 PDFKit 在本機執行。",
-    "b1": "裝置端處理",
-    "b1Text": "照片在你的 iPhone 或 iPad 上處理，不會上傳。",
-    "b2": "無帳號或追蹤",
-    "b2Text": "Snapport Lite 沒有登入、廣告、分析、追蹤 SDK 或雲端處理。",
-    "b3": "選用範本更新",
-    "b3Text": "只有當你點選 Check for Template Updates 時，App 才會下載公開 JSON 清單，且不傳送個人資料。",
-    "b4": "2026 基準",
-    "b4Text": "範本以 2026 基準維護，方便離線使用。",
-    "priceTitle": "所有格式開放，第一次輸出免費。",
-    "priceSub": "所有範本、自訂尺寸與編輯工具皆可使用。第一次成功輸出免費；US$4.99 永久解鎖後可無限輸出，無訂閱、廣告或追蹤。Bundle ID：com.alice51849.SnapportLite。",
-    "price": "一次購買，永久使用。",
-    "complianceTitle": "重要合規提示",
-    "complianceText": "Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "supportTitle": "需要協助？",
-    "supportSub": "若對範本、隱私、輸出、列印版面或選用更新檢查有疑問，請查看支援頁或寄信給我們。",
-    "supportBtn": "開啟支援"
-  },
-  "ja": {
-    "navFeatures": "機能",
-    "navPrivacy": "プライバシー",
-    "navSupport": "サポート",
-    "navDownload": "ダウンロード",
-    "footHome": "ホーム",
-    "footPrivacy": "プライバシー",
-    "footSupport": "サポート",
-    "copy": "© 2026 Cait518。無断転載を禁じます。",
-    "switchTo": "言語を切り替え:",
-    "appStoreSmall": "App Storeで",
-    "appStoreBig": "入手",
-    "learnMore": "詳しく見る",
-    "metaTitle": "Snapport Lite — 自宅でパスポート・ビザ・ID写真",
-    "metaDescription": "Snapport Liteはプライバシー最優先のID写真スタジオです。全形式と編集機能を利用でき、最初の書き出しは無料。サブスク、広告、追跡、クラウド、アカウントなし。",
-    "heroEyebrow": "プライベートID写真スタジオ",
-    "heroTitle": "自宅でパスポート、ビザ、ID写真を。",
-    "heroTagline": "全テンプレートと編集機能を利用可能。最初の書き出しは無料。",
-    "heroSub": "Snapport LiteはiPhoneまたはiPad上で、トリミング、位置合わせ、軽い調整、背景変更、書き出しを支援します。すべて端末上で処理されます。",
-    "badge1": "データ収集なし",
-    "badge2": "完全オフライン",
-    "badge3": "広告・追跡なし",
-    "badge4": "永久解除: US$4.99",
-    "screenLabel": "Snapport Lite スタジオ",
-    "screenBig": "35 × 45",
-    "screenUnit": "mm テンプレート",
-    "screenDup": "顔ガイド",
-    "screenSimilar": "背景",
-    "screenBlur": "印刷シート",
-    "screenLarge": "PDF 書き出し",
-    "screenCta": "公式要件を確認",
-    "featuresEyebrow": "スタジオツール",
-    "featuresTitle": "慎重で再現性のあるID写真作成のために。",
-    "featuresSub": "一般的なテンプレートを選ぶか、正確なカスタムサイズを作成し、安全なガイドと書き出しを利用できます。",
-    "f1Title": "一般的なテンプレート",
-    "f1Text": "米国、英国、シェンゲン/EU、日本、韓国、台湾、中国、カナダ、オーストラリア、インド、IDカード、学生証、履歴書、社員証の一般的なサイズを含みます。",
-    "f2Title": "カスタムサイズ",
-    "f2Text": "mm、inch、px と任意の DPI で、一般的でない申請にも使える任意サイズを作成できます。",
-    "f3Title": "顔位置合わせガイド",
-    "f3Text": "オンデバイスの Apple Vision 顔検出により、頭頂、目線、あごのガイド配置を支援します。操作は常にあなたが行います。",
-    "f4Title": "背景置き換え",
-    "f4Text": "オンデバイス人物セグメンテーションで、元の背景を維持するか、白、グレー、青、赤を選べます。",
-    "f5Title": "軽い調整",
-    "f5Text": "本人性を損なわない範囲で、明るさ、コントラスト、色温度、シャープネスを調整できます。",
-    "f6Title": "書き出しと印刷",
-    "f6Text": "JPEG、PNG、PDF に書き出し、4×6、A4、Letter のカットガイド付き印刷シートを作成できます。",
-    "privacyEyebrow": "プライバシー最優先",
-    "privacyTitle": "クラウドスタジオなし。アカウントなし。データ収集なし。",
-    "privacySub": "顔検出、人物セグメンテーション、画像調整、PDF生成、印刷シートは Apple Vision、Core Image、PDFKit を使いローカルで実行されます。",
-    "b1": "オンデバイス処理",
-    "b1Text": "写真はiPhoneまたはiPad上で処理され、アップロードされません。",
-    "b2": "アカウント・追跡なし",
-    "b2Text": "Snapport Lite にはサインイン、広告、分析、追跡 SDK、クラウド処理はありません。",
-    "b3": "任意のテンプレート更新",
-    "b3Text": "Check for Template Updates をタップした場合のみ、公開 JSON リストをダウンロードします。個人データは送信されません。",
-    "b4": "2026年基準",
-    "b4Text": "テンプレートはオフライン利用しやすい 2026 年基準で維持されています。",
-    "priceTitle": "全形式を利用可能。最初の書き出しは無料。",
-    "priceSub": "全テンプレート、カスタムサイズ、編集機能を利用できます。最初の書き出しは無料。US$4.99の永久解除で以降は無制限。サブスク・広告・追跡なし。Bundle ID: com.alice51849.SnapportLite。",
-    "price": "一度の購入で永久に利用。",
-    "complianceTitle": "重要な注意事項",
-    "complianceText": "Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "supportTitle": "お困りですか？",
-    "supportSub": "テンプレート、プライバシー、書き出し、印刷シート、任意の更新確認についてはサポートをご覧いただくか、メールでお問い合わせください。",
-    "supportBtn": "サポートを開く"
-  },
-  "ko": {
-    "navFeatures": "기능",
-    "navPrivacy": "개인정보",
-    "navSupport": "지원",
-    "navDownload": "다운로드",
-    "footHome": "홈",
-    "footPrivacy": "개인정보",
-    "footSupport": "지원",
-    "copy": "© 2026 Cait518. 모든 권리 보유.",
-    "switchTo": "언어 전환:",
-    "appStoreSmall": "App Store에서",
-    "appStoreBig": "받기",
-    "learnMore": "자세히 보기",
-    "metaTitle": "Snapport Lite — 집에서 만드는 여권, 비자, ID 사진",
-    "metaDescription": "Snapport Lite는 개인정보를 우선하는 ID 사진 스튜디오입니다. 모든 형식과 편집 도구를 이용할 수 있고 첫 내보내기는 무료입니다. 구독, 광고, 추적, 클라우드, 계정 없음.",
-    "heroEyebrow": "비공개 ID 사진 스튜디오",
-    "heroTitle": "집에서 여권, 비자, ID 사진을 만드세요.",
-    "heroTagline": "모든 템플릿과 편집 도구 이용 가능. 첫 내보내기는 무료.",
-    "heroSub": "Snapport Lite는 iPhone 또는 iPad에서 자르기, 정렬, 가벼운 보정, 배경 교체, 내보내기를 도와줍니다. 모든 처리는 기기에서 이루어집니다.",
-    "badge1": "데이터 수집 없음",
-    "badge2": "완전 오프라인",
-    "badge3": "광고·추적 없음",
-    "badge4": "영구 잠금 해제: US$4.99",
-    "screenLabel": "Snapport Lite 스튜디오",
-    "screenBig": "35 × 45",
-    "screenUnit": "mm 템플릿",
-    "screenDup": "얼굴 가이드",
-    "screenSimilar": "배경",
-    "screenBlur": "인쇄 시트",
-    "screenLarge": "PDF 내보내기",
-    "screenCta": "공식 요건 확인",
-    "featuresEyebrow": "스튜디오 도구",
-    "featuresTitle": "신중하고 반복 가능한 ID 사진 제작을 위해 설계되었습니다.",
-    "featuresSub": "일반 템플릿을 선택하거나 정확한 사용자 지정 크기를 만든 뒤 안전한 가이드와 내보내기를 사용할 수 있습니다.",
-    "f1Title": "일반 템플릿",
-    "f1Text": "미국, 영국, 솅겐/EU, 일본, 한국, 대만, 중국, 캐나다, 호주, 인도 및 ID 카드, 학생증, 이력서, 사원증 사진의 일반 크기를 포함합니다.",
-    "f2Title": "사용자 지정 크기",
-    "f2Text": "mm, inch, px 및 원하는 DPI로 드문 신청 요건에도 맞는 모든 크기를 만들 수 있습니다.",
-    "f3Title": "얼굴 정렬 가이드",
-    "f3Text": "온디바이스 Apple Vision 얼굴 감지로 머리 위, 눈선, 턱 가이드 정렬을 도와주며 최종 제어는 사용자에게 있습니다.",
-    "f4Title": "배경 교체",
-    "f4Text": "온디바이스 인물 분할을 사용해 원본 배경을 유지하거나 흰색, 회색, 파란색, 빨간색을 선택할 수 있습니다.",
-    "f5Title": "가벼운 조정",
-    "f5Text": "신원 특징을 바꾸지 않는 범위에서 밝기, 대비, 색온도, 선명도를 조정합니다.",
-    "f6Title": "내보내기 및 인쇄",
-    "f6Text": "JPEG, PNG, PDF로 내보내고 4×6, A4, Letter용 자르기 가이드가 있는 인쇄 시트를 만들 수 있습니다.",
-    "privacyEyebrow": "개인정보 우선",
-    "privacyTitle": "클라우드 스튜디오 없음. 계정 없음. 데이터 수집 없음.",
-    "privacySub": "얼굴 감지, 인물 분할, 이미지 조정, PDF 생성, 인쇄 시트는 Apple Vision, Core Image, PDFKit으로 로컬에서 실행됩니다.",
-    "b1": "온디바이스 처리",
-    "b1Text": "사진은 iPhone 또는 iPad에서 처리되며 업로드되지 않습니다.",
-    "b2": "계정 또는 추적 없음",
-    "b2Text": "Snapport Lite에는 로그인, 광고, 분석, 추적 SDK, 클라우드 처리가 없습니다.",
-    "b3": "선택적 템플릿 업데이트",
-    "b3Text": "Check for Template Updates를 탭한 경우에만 공개 JSON 목록을 다운로드하며 개인 데이터는 전송하지 않습니다.",
-    "b4": "2026 기준",
-    "b4Text": "템플릿은 오프라인 친화적인 2026 기준으로 유지됩니다.",
-    "priceTitle": "모든 형식 이용 가능. 첫 내보내기는 무료.",
-    "priceSub": "모든 템플릿, 사용자 지정 크기, 편집 도구를 사용할 수 있습니다. 첫 내보내기는 무료이며 US$4.99 영구 해제 후 무제한 내보내기가 가능합니다. 구독·광고·추적 없음. Bundle ID: com.alice51849.SnapportLite.",
-    "price": "한 번 구매로 평생 이용.",
-    "complianceTitle": "중요 준수 안내",
-    "complianceText": "Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "supportTitle": "도움이 필요하신가요?",
-    "supportSub": "템플릿, 개인정보, 내보내기, 인쇄 시트 또는 선택적 업데이트 확인에 대한 질문은 지원 페이지를 확인하거나 이메일로 문의하세요.",
-    "supportBtn": "지원 열기"
-  }
-};</script>
-<script>
-(function () {
-  const supported = ['en', 'zh-Hant', 'ja', 'ko'];
-  const langNames = { en: 'English', 'zh-Hant': '繁體中文', ja: '日本語', ko: '한국어' };
-  function detectLang() {
-    const saved = localStorage.getItem('snapport_lang');
-    if (supported.includes(saved)) return saved;
-    const nav = (navigator.language || 'en').toLowerCase();
-    if (nav.startsWith('zh')) return 'zh-Hant';
-    if (nav.startsWith('ja')) return 'ja';
-    if (nav.startsWith('ko')) return 'ko';
-    return 'en';
-  }
-  function applyLang(lang) {
-    const dict = window.SNAPPORT_I18N[lang] || window.SNAPPORT_I18N.en;
-    document.documentElement.lang = lang;
-    document.title = dict.metaTitle;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', dict.metaDescription);
-    document.querySelectorAll('[data-i18n]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n')];
-      if (value !== undefined) el.textContent = value;
-    });
-    document.querySelectorAll('[data-i18n-html]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n-html')];
-      if (value !== undefined) el.innerHTML = value;
-    });
-    document.querySelectorAll('[data-i18n-aria]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n-aria')];
-      if (value !== undefined) el.setAttribute('aria-label', value);
-    });
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      const active = btn.getAttribute('data-lang') === lang;
-      btn.classList.toggle('active', active);
-      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
-      btn.setAttribute('aria-label', (dict.switchTo || 'Switch language to') + ' ' + langNames[btn.getAttribute('data-lang')]);
-    });
-  }
-  window.setSnapportLiteLang = function (lang) {
-    if (!supported.includes(lang)) return;
-    localStorage.setItem('snapport_lang', lang);
-    applyLang(lang);
-  };
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () { window.setSnapportLiteLang(btn.getAttribute('data-lang')); });
-    });
-    applyLang(detectLang());
-    const reveal = function () {
-      document.querySelectorAll('.reveal').forEach(function (el) {
-        if (el.getBoundingClientRect().top < window.innerHeight - 60) el.classList.add('in');
-      });
-    };
-    reveal(); window.addEventListener('scroll', reveal, { passive: true });
-  });
-}());
-</script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/site.js"></script>
 </body>
 </html>

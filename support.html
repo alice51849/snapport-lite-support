@@ -1,267 +1,89 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support — Snapport Lite</title>
-  <meta name="description" content="Snapport Lite support FAQ for passport, visa, and ID photo templates, privacy, exports, print sheets, custom sizes, and optional template updates.">
+  <meta name="description" content="Snapport Lite support for photo setup, templates, backgrounds, printing, export, privacy, and optional updates.">
+  <link rel="canonical" href="https://alice51849.github.io/snapport-lite-support/support.html">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="support">
   <div class="bg"><span class="blob"></span></div>
   <header>
     <div class="wrap nav">
       <a class="brand" href="index.html"><img class="icon" src="icon.png" alt="Snapport Lite"><span>Snapport Lite</span></a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="index.html#features" data-i18n="navFeatures">Features</a>
+        <a href="index.html#features" data-i18n="navFeatures">Templates</a>
         <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
         <a href="support.html" data-i18n="navSupport">Support</a>
-        <div class="lang" aria-label="Language selector">
-          <button class="btn-sm lang-btn" type="button" data-lang="en">EN</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="zh-Hant">中文</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="ja">日本語</button>
-          <button class="btn-sm lang-btn" type="button" data-lang="ko">한국어</button>
-        </div>
-        <a class="btn btn-sm" href="https://apps.apple.com/search?term=Snapport Lite" data-i18n="navDownload">Download</a>
+        <div class="lang"><select id="language-select" aria-label="Language"></select></div>
+        <a class="btn btn-sm" href="https://apps.apple.com/app/id6792856304" data-i18n="navDownload">App Store</a>
       </nav>
     </div>
   </header>
   <main>
-    <section class="hero wrap reveal"><img class="icon app-icon" src="icon.png" alt="Snapport Lite app icon"><h1 data-i18n="pageTitle">Support</h1><p class="sub" data-i18n="heroSub">Find answers about templates, private on-device processing, exports, print sheets, and updates. For direct help, email hourstag.app@gmail.com.</p></section>
-    <section class="wrap reveal"><div class="section-title"><span class="eyebrow" data-i18n="faqLabel">FAQ</span><h2 data-i18n="pageTitle">Support</h2></div><div class="faq">
-      <details open><summary data-i18n="q1">Does Snapport Lite guarantee my photo will be accepted?</summary><p data-i18n="a1">No. Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.</p></details>
-      <details><summary data-i18n="q2">Which templates are included?</summary><p data-i18n="a2">Snapport Lite includes common templates for the US, UK, Schengen/EU, Japan, Korea, Taiwan, China, Canada, Australia, India, plus ID card, student ID, resume, and work badge photos.</p></details>
-      <details><summary data-i18n="q3">Can I create a custom size?</summary><p data-i18n="a3">Yes. You can create custom sizes in millimeters, inches, or pixels, with any DPI.</p></details>
-      <details><summary data-i18n="q4">Are my photos uploaded anywhere?</summary><p data-i18n="a4">No. Snapport Lite processes photos on your iPhone with Apple Vision, person segmentation, Core Image, and PDFKit. There is no account, no cloud processing, no ads, and no tracking.</p></details>
-      <details><summary data-i18n="q5">What is Check for Template Updates?</summary><p data-i18n="a5">It is optional and user-initiated. When you tap it, Snapport Lite downloads a public JSON list of common photo sizes and sends no personal data.</p></details>
-      <details><summary data-i18n="q6">What export formats are supported?</summary><p data-i18n="a6">Snapport Lite exports JPEG, PNG, and PDF, and can create print-ready 4×6, A4, and Letter sheets with cut guides.</p></details>
-      <details><summary data-i18n="q7">Is Snapport Lite a subscription?</summary><p data-i18n="a7">No. Every template and editing tool is available, and your first successful export is free. One US$4.99 lifetime unlock enables unlimited additional exports. No subscription, ads, or tracking.</p></details>
-      <details><summary data-i18n="q8">Which devices and languages are supported?</summary><p data-i18n="a8">Snapport Lite supports iPhone and iPad on iOS 17 or later. The app declares all 50 App Store locales.</p></details>
-    </div></section>
-    <section class="wrap doc reveal"><article class="card"><h2 data-i18n="contactTitle">Contact</h2><p data-i18n="contactText">Email us at hourstag.app@gmail.com. Please include your device model, iOS version, and a short description of the issue.</p></article></section>
+    <section class="hero wrap reveal">
+      <img class="icon app-icon" src="icon.png" alt="Snapport Lite">
+      <h1 data-i18n="supportPageTitle">Support</h1>
+      <p class="sub" data-i18n="supportIntro">How to take a good ID photo</p>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="grid">
+        <article class="card"><h3 data-i18n="supportLighting">Use soft, even lighting and avoid harsh shadows.</h3></article>
+        <article class="card"><h3 data-i18n="supportBackground">Stand in front of a plain, light-coloured wall.</h3></article>
+        <article class="card"><h3 data-i18n="supportShadows">Move away from the wall to avoid shadows.</h3></article>
+        <article class="card"><h3 data-i18n="supportNatural">Keep a natural expression and appearance.</h3></article>
+        <article class="card"><h3 data-i18n="supportPrinting">Print on photo paper at the correct DPI.</h3></article>
+        <article class="card"><h3 data-i18n="supportExport">Export a single photo or a print sheet.</h3></article>
+      </div>
+    </section>
+
+    <section class="wrap reveal">
+      <div class="faq">
+        <details open>
+          <summary data-i18n="supportOfficial">Always confirm the official requirements before submitting.</summary>
+          <p data-i18n="disclaimerText">Photo requirements vary by country, agency, and application type. Review the official requirements before submitting.</p>
+        </details>
+        <details>
+          <summary data-i18n="updatesTitle">Check for template updates</summary>
+          <p data-i18n="updatesText">Checking only downloads a public list of common sizes — no personal data is sent.</p>
+        </details>
+        <details>
+          <summary data-i18n="privacyTitle">Privacy</summary>
+          <p data-i18n="privacyFace">Face detection runs on device to help align your photo. No biometric identity is stored.</p>
+        </details>
+        <details>
+          <summary data-i18n="freeTitle">Free version supports 1 export</summary>
+          <p data-i18n="freeSub">One purchase · yours forever · no subscription</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="wrap doc reveal">
+      <article class="card">
+        <h2 data-i18n="supportTitle">Support</h2>
+        <p><a href="mailto:hourstag.app@gmail.com" data-i18n="contact">hourstag.app@gmail.com</a></p>
+      </article>
+    </section>
   </main>
   <footer>
     <div class="wrap">
       <div class="foot">
         <a class="brand" href="index.html"><img class="icon" src="icon.png" alt="Snapport Lite"><span>Snapport Lite</span></a>
         <div class="foot-links">
-          <a href="index.html" data-i18n="footHome">Home</a>
-          <a href="privacy.html" data-i18n="footPrivacy">Privacy</a>
-          <a href="support.html" data-i18n="footSupport">Support</a>
+          <a href="index.html" data-i18n="navFeatures">Templates</a>
+          <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
           <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a>
         </div>
       </div>
-      <p class="copy" data-i18n="copy">© 2026 Cait518. All rights reserved.</p>
+      <p class="copy">© <span data-i18n="copyright">2026 Cait518</span></p>
     </div>
   </footer>
-<script>window.SNAPPORT_I18N = {
-  "en": {
-    "navFeatures": "Features",
-    "navPrivacy": "Privacy",
-    "navSupport": "Support",
-    "navDownload": "Download",
-    "footHome": "Home",
-    "footPrivacy": "Privacy",
-    "footSupport": "Support",
-    "copy": "© 2026 Cait518. All rights reserved.",
-    "switchTo": "Switch language to",
-    "appStoreSmall": "Get it on the",
-    "appStoreBig": "App Store",
-    "learnMore": "Learn more",
-    "metaTitle": "Support — Snapport Lite",
-    "metaDescription": "Snapport Lite support FAQ for passport, visa, and ID photo templates, privacy, exports, print sheets, custom sizes, and optional template updates.",
-    "pageTitle": "Support",
-    "faqLabel": "FAQ",
-    "heroSub": "Find answers about templates, private on-device processing, exports, print sheets, and updates. For direct help, email hourstag.app@gmail.com.",
-    "contactTitle": "Contact",
-    "contactText": "Email us at hourstag.app@gmail.com. Please include your device model, iOS version, and a short description of the issue.",
-    "q1": "Does Snapport Lite guarantee my photo will be accepted?",
-    "a1": "No. Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "q2": "Which templates are included?",
-    "a2": "Snapport Lite includes common templates for the US, UK, Schengen/EU, Japan, Korea, Taiwan, China, Canada, Australia, India, plus ID card, student ID, resume, and work badge photos.",
-    "q3": "Can I create a custom size?",
-    "a3": "Yes. You can create custom sizes in millimeters, inches, or pixels, with any DPI.",
-    "q4": "Are my photos uploaded anywhere?",
-    "a4": "No. Snapport Lite processes photos on your iPhone with Apple Vision, person segmentation, Core Image, and PDFKit. There is no account, no cloud processing, no ads, and no tracking.",
-    "q5": "What is Check for Template Updates?",
-    "a5": "It is optional and user-initiated. When you tap it, Snapport Lite downloads a public JSON list of common photo sizes and sends no personal data.",
-    "q6": "What export formats are supported?",
-    "a6": "Snapport Lite exports JPEG, PNG, and PDF, and can create print-ready 4×6, A4, and Letter sheets with cut guides.",
-    "q7": "Is Snapport Lite a subscription?",
-    "a7": "No. Every template and editing tool is available, and your first successful export is free. One US$4.99 lifetime unlock enables unlimited additional exports. No subscription, ads, or tracking.",
-    "q8": "Which devices and languages are supported?",
-    "a8": "Snapport Lite supports iPhone and iPad on iOS 17 or later. The app declares all 50 App Store locales."
-  },
-  "zh-Hant": {
-    "navFeatures": "功能",
-    "navPrivacy": "隱私權",
-    "navSupport": "支援",
-    "navDownload": "下載",
-    "footHome": "首頁",
-    "footPrivacy": "隱私權",
-    "footSupport": "支援",
-    "copy": "© 2026 Cait518。保留所有權利。",
-    "switchTo": "切換語言至",
-    "appStoreSmall": "前往",
-    "appStoreBig": "App Store",
-    "learnMore": "了解更多",
-    "metaTitle": "支援 — Snapport Lite",
-    "metaDescription": "Snapport Lite 支援 FAQ：護照、簽證與證件照範本、隱私、輸出、列印版面、自訂尺寸與選用範本更新。",
-    "pageTitle": "支援",
-    "faqLabel": "常見問題",
-    "heroSub": "查看範本、私密裝置端處理、輸出、列印版面與更新的解答。若需要直接協助，請寄信至 hourstag.app@gmail.com。",
-    "contactTitle": "聯絡我們",
-    "contactText": "請寄信至 hourstag.app@gmail.com。建議附上裝置型號、iOS 版本與問題簡述。",
-    "q1": "Snapport Lite 保證照片一定會通過嗎？",
-    "a1": "不會。Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "q2": "包含哪些範本？",
-    "a2": "Snapport Lite 包含美國、英國、申根／歐盟、日本、韓國、台灣、中國、加拿大、澳洲、印度，以及身分證、學生證、履歷與工作證照片常用尺寸。",
-    "q3": "可以建立自訂尺寸嗎？",
-    "a3": "可以。你可以使用毫米、英吋或像素建立自訂尺寸，並設定任何 DPI。",
-    "q4": "我的照片會上傳到任何地方嗎？",
-    "a4": "不會。Snapport Lite 使用 Apple Vision、人物分割、Core Image 與 PDFKit 在 iPhone 上處理照片。沒有帳號、沒有雲端處理、沒有廣告、沒有追蹤。",
-    "q5": "Check for Template Updates 是什麼？",
-    "a5": "這是選用且由使用者主動啟動的功能。當你點選時，Snapport Lite 會下載公開的常用照片尺寸 JSON 清單，且不傳送個人資料。",
-    "q6": "支援哪些輸出格式？",
-    "a6": "Snapport Lite 可輸出 JPEG、PNG 與 PDF，並可建立包含裁切線的 4×6、A4 與 Letter 列印版面。",
-    "q7": "Snapport Lite 是訂閱制嗎？",
-    "a7": "不是。所有證件格式與編輯工具皆可使用，第一次成功輸出免費；US$4.99 永久解鎖後可無限輸出。無訂閱、廣告或追蹤。",
-    "q8": "支援哪些裝置與語言？",
-    "a8": "Snapport Lite 支援 iOS 17 或更新版本的 iPhone 與 iPad，App 已宣告完整 50 個 App Store locale。"
-  },
-  "ja": {
-    "navFeatures": "機能",
-    "navPrivacy": "プライバシー",
-    "navSupport": "サポート",
-    "navDownload": "ダウンロード",
-    "footHome": "ホーム",
-    "footPrivacy": "プライバシー",
-    "footSupport": "サポート",
-    "copy": "© 2026 Cait518。無断転載を禁じます。",
-    "switchTo": "言語を切り替え:",
-    "appStoreSmall": "App Storeで",
-    "appStoreBig": "入手",
-    "learnMore": "詳しく見る",
-    "metaTitle": "サポート — Snapport Lite",
-    "metaDescription": "Snapport Lite サポート FAQ: パスポート、ビザ、ID写真テンプレート、プライバシー、書き出し、印刷シート、カスタムサイズ、任意のテンプレート更新。",
-    "pageTitle": "サポート",
-    "faqLabel": "よくある質問",
-    "heroSub": "テンプレート、プライベートなオンデバイス処理、書き出し、印刷シート、更新について確認できます。直接のサポートは hourstag.app@gmail.com までご連絡ください。",
-    "contactTitle": "お問い合わせ",
-    "contactText": "hourstag.app@gmail.com までメールでご連絡ください。端末モデル、iOS バージョン、問題の簡単な説明を含めていただけると助かります。",
-    "q1": "Snapport Lite は写真の受理を保証しますか？",
-    "a1": "いいえ。Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "q2": "どのテンプレートが含まれますか？",
-    "a2": "Snapport Lite には、米国、英国、シェンゲン/EU、日本、韓国、台湾、中国、カナダ、オーストラリア、インド、IDカード、学生証、履歴書、社員証写真の一般的なサイズが含まれます。",
-    "q3": "カスタムサイズを作成できますか？",
-    "a3": "はい。ミリメートル、インチ、ピクセル、および任意の DPI でカスタムサイズを作成できます。",
-    "q4": "写真はどこかにアップロードされますか？",
-    "a4": "いいえ。Snapport Lite は Apple Vision、人物セグメンテーション、Core Image、PDFKit を使い iPhone 上で写真を処理します。アカウント、クラウド処理、広告、追跡はありません。",
-    "q5": "Check for Template Updates とは何ですか？",
-    "a5": "任意で、ユーザーが開始する機能です。タップすると、Snapport Lite は一般的な写真サイズの公開 JSON リストをダウンロードし、個人データは送信しません。",
-    "q6": "対応している書き出し形式は？",
-    "a6": "Snapport Lite は JPEG、PNG、PDF に書き出しでき、カットガイド付きの 4×6、A4、Letter 印刷シートを作成できます。",
-    "q7": "Snapport Lite はサブスクリプションですか？",
-    "a7": "いいえ。全テンプレートと編集機能を利用でき、最初の書き出しは無料です。US$4.99の永久解除で以降は無制限に書き出せます。サブスク・広告・追跡はありません。",
-    "q8": "対応端末と言語は？",
-    "a8": "Snapport LiteはiOS 17以降のiPhoneとiPadに対応し、アプリはApp Storeの全50 localeを宣言しています。"
-  },
-  "ko": {
-    "navFeatures": "기능",
-    "navPrivacy": "개인정보",
-    "navSupport": "지원",
-    "navDownload": "다운로드",
-    "footHome": "홈",
-    "footPrivacy": "개인정보",
-    "footSupport": "지원",
-    "copy": "© 2026 Cait518. 모든 권리 보유.",
-    "switchTo": "언어 전환:",
-    "appStoreSmall": "App Store에서",
-    "appStoreBig": "받기",
-    "learnMore": "자세히 보기",
-    "metaTitle": "지원 — Snapport Lite",
-    "metaDescription": "Snapport Lite 지원 FAQ: 여권, 비자, ID 사진 템플릿, 개인정보, 내보내기, 인쇄 시트, 사용자 지정 크기, 선택적 템플릿 업데이트.",
-    "pageTitle": "지원",
-    "faqLabel": "자주 묻는 질문",
-    "heroSub": "템플릿, 비공개 온디바이스 처리, 내보내기, 인쇄 시트, 업데이트에 대한 답변을 확인하세요. 직접 도움이 필요하면 hourstag.app@gmail.com 으로 이메일을 보내주세요.",
-    "contactTitle": "문의",
-    "contactText": "hourstag.app@gmail.com 으로 이메일을 보내주세요. 기기 모델, iOS 버전, 문제에 대한 짧은 설명을 함께 보내주시면 도움이 됩니다.",
-    "q1": "Snapport Lite가 사진 승인 여부를 보장하나요?",
-    "a1": "아니요. Photo requirements vary by country, agency, and application type. Snapport Lite provides common templates and guides — it does not guarantee acceptance and is not affiliated with any government. Always review the official requirements before submitting.",
-    "q2": "어떤 템플릿이 포함되어 있나요?",
-    "a2": "Snapport Lite에는 미국, 영국, 솅겐/EU, 일본, 한국, 대만, 중국, 캐나다, 호주, 인도 및 ID 카드, 학생증, 이력서, 사원증 사진의 일반 크기가 포함됩니다.",
-    "q3": "사용자 지정 크기를 만들 수 있나요?",
-    "a3": "예. 밀리미터, 인치 또는 픽셀 단위와 원하는 DPI로 사용자 지정 크기를 만들 수 있습니다.",
-    "q4": "제 사진이 어디론가 업로드되나요?",
-    "a4": "아니요. Snapport Lite는 Apple Vision, 인물 분할, Core Image, PDFKit을 사용해 iPhone에서 사진을 처리합니다. 계정, 클라우드 처리, 광고, 추적이 없습니다.",
-    "q5": "Check for Template Updates는 무엇인가요?",
-    "a5": "선택 사항이며 사용자가 직접 시작하는 기능입니다. 탭하면 Snapport Lite가 일반 사진 크기의 공개 JSON 목록을 다운로드하며 개인 데이터는 전송하지 않습니다.",
-    "q6": "어떤 내보내기 형식을 지원하나요?",
-    "a6": "Snapport Lite는 JPEG, PNG, PDF로 내보내며 자르기 가이드가 있는 4×6, A4, Letter 인쇄 시트를 만들 수 있습니다.",
-    "q7": "Snapport Lite는 구독인가요?",
-    "a7": "아니요. 모든 템플릿과 편집 도구를 이용할 수 있으며 첫 내보내기는 무료입니다. US$4.99 영구 해제 후 무제한으로 내보낼 수 있습니다. 구독·광고·추적은 없습니다.",
-    "q8": "지원 기기와 언어는 무엇인가요?",
-    "a8": "Snapport Lite는 iOS 17 이상 iPhone과 iPad를 지원하며, 앱은 App Store의 전체 50개 locale을 선언합니다."
-  }
-};</script>
-<script>
-(function () {
-  const supported = ['en', 'zh-Hant', 'ja', 'ko'];
-  const langNames = { en: 'English', 'zh-Hant': '繁體中文', ja: '日本語', ko: '한국어' };
-  function detectLang() {
-    const saved = localStorage.getItem('snapport_lang');
-    if (supported.includes(saved)) return saved;
-    const nav = (navigator.language || 'en').toLowerCase();
-    if (nav.startsWith('zh')) return 'zh-Hant';
-    if (nav.startsWith('ja')) return 'ja';
-    if (nav.startsWith('ko')) return 'ko';
-    return 'en';
-  }
-  function applyLang(lang) {
-    const dict = window.SNAPPORT_I18N[lang] || window.SNAPPORT_I18N.en;
-    document.documentElement.lang = lang;
-    document.title = dict.metaTitle;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', dict.metaDescription);
-    document.querySelectorAll('[data-i18n]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n')];
-      if (value !== undefined) el.textContent = value;
-    });
-    document.querySelectorAll('[data-i18n-html]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n-html')];
-      if (value !== undefined) el.innerHTML = value;
-    });
-    document.querySelectorAll('[data-i18n-aria]').forEach(function (el) {
-      const value = dict[el.getAttribute('data-i18n-aria')];
-      if (value !== undefined) el.setAttribute('aria-label', value);
-    });
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      const active = btn.getAttribute('data-lang') === lang;
-      btn.classList.toggle('active', active);
-      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
-      btn.setAttribute('aria-label', (dict.switchTo || 'Switch language to') + ' ' + langNames[btn.getAttribute('data-lang')]);
-    });
-  }
-  window.setSnapportLiteLang = function (lang) {
-    if (!supported.includes(lang)) return;
-    localStorage.setItem('snapport_lang', lang);
-    applyLang(lang);
-  };
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[data-lang]').forEach(function (btn) {
-      btn.addEventListener('click', function () { window.setSnapportLiteLang(btn.getAttribute('data-lang')); });
-    });
-    applyLang(detectLang());
-    const reveal = function () {
-      document.querySelectorAll('.reveal').forEach(function (el) {
-        if (el.getBoundingClientRect().top < window.innerHeight - 60) el.classList.add('in');
-      });
-    };
-    reveal(); window.addEventListener('scroll', reveal, { passive: true });
-  });
-}());
-</script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/site.js"></script>
 </body>
 </html>
