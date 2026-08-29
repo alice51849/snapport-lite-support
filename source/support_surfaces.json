@@ -1,0 +1,2721 @@
+{
+  "schema": "support-surface-source/v1",
+  "site": "snapport-lite-support",
+  "base_url": "https://alice51849.github.io/snapport-lite-support/",
+  "email": "hourstag.app@gmail.com",
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "routes": {
+    "ar-SA": {
+      "index": "ar-SA/index.html",
+      "support": "ar-SA/support.html",
+      "privacy": "ar-SA/privacy.html"
+    },
+    "bn-BD": {
+      "index": "bn-BD/index.html",
+      "support": "bn-BD/support.html",
+      "privacy": "bn-BD/privacy.html"
+    },
+    "ca": {
+      "index": "ca/index.html",
+      "support": "ca/support.html",
+      "privacy": "ca/privacy.html"
+    },
+    "cs": {
+      "index": "cs/index.html",
+      "support": "cs/support.html",
+      "privacy": "cs/privacy.html"
+    },
+    "da": {
+      "index": "da/index.html",
+      "support": "da/support.html",
+      "privacy": "da/privacy.html"
+    },
+    "de-DE": {
+      "index": "de-DE/index.html",
+      "support": "de-DE/support.html",
+      "privacy": "de-DE/privacy.html"
+    },
+    "el": {
+      "index": "el/index.html",
+      "support": "el/support.html",
+      "privacy": "el/privacy.html"
+    },
+    "en-AU": {
+      "index": "index.html",
+      "support": "support.html",
+      "privacy": "privacy.html"
+    },
+    "en-CA": {
+      "index": "index.html",
+      "support": "support.html",
+      "privacy": "privacy.html"
+    },
+    "en-GB": {
+      "index": "index.html",
+      "support": "support.html",
+      "privacy": "privacy.html"
+    },
+    "en-US": {
+      "index": "index.html",
+      "support": "support.html",
+      "privacy": "privacy.html"
+    },
+    "es-ES": {
+      "index": "es-ES/index.html",
+      "support": "es-ES/support.html",
+      "privacy": "es-ES/privacy.html"
+    },
+    "es-MX": {
+      "index": "es-MX/index.html",
+      "support": "es-MX/support.html",
+      "privacy": "es-MX/privacy.html"
+    },
+    "fi": {
+      "index": "fi/index.html",
+      "support": "fi/support.html",
+      "privacy": "fi/privacy.html"
+    },
+    "fr-CA": {
+      "index": "fr-CA/index.html",
+      "support": "fr-CA/support.html",
+      "privacy": "fr-CA/privacy.html"
+    },
+    "fr-FR": {
+      "index": "fr-FR/index.html",
+      "support": "fr-FR/support.html",
+      "privacy": "fr-FR/privacy.html"
+    },
+    "gu-IN": {
+      "index": "gu-IN/index.html",
+      "support": "gu-IN/support.html",
+      "privacy": "gu-IN/privacy.html"
+    },
+    "he": {
+      "index": "he/index.html",
+      "support": "he/support.html",
+      "privacy": "he/privacy.html"
+    },
+    "hi": {
+      "index": "hi/index.html",
+      "support": "hi/support.html",
+      "privacy": "hi/privacy.html"
+    },
+    "hr": {
+      "index": "hr/index.html",
+      "support": "hr/support.html",
+      "privacy": "hr/privacy.html"
+    },
+    "hu": {
+      "index": "hu/index.html",
+      "support": "hu/support.html",
+      "privacy": "hu/privacy.html"
+    },
+    "id": {
+      "index": "id/index.html",
+      "support": "id/support.html",
+      "privacy": "id/privacy.html"
+    },
+    "it": {
+      "index": "it/index.html",
+      "support": "it/support.html",
+      "privacy": "it/privacy.html"
+    },
+    "ja": {
+      "index": "ja/index.html",
+      "support": "ja/support.html",
+      "privacy": "ja/privacy.html"
+    },
+    "kn-IN": {
+      "index": "kn-IN/index.html",
+      "support": "kn-IN/support.html",
+      "privacy": "kn-IN/privacy.html"
+    },
+    "ko": {
+      "index": "ko/index.html",
+      "support": "ko/support.html",
+      "privacy": "ko/privacy.html"
+    },
+    "ml-IN": {
+      "index": "ml-IN/index.html",
+      "support": "ml-IN/support.html",
+      "privacy": "ml-IN/privacy.html"
+    },
+    "mr-IN": {
+      "index": "mr-IN/index.html",
+      "support": "mr-IN/support.html",
+      "privacy": "mr-IN/privacy.html"
+    },
+    "ms": {
+      "index": "ms/index.html",
+      "support": "ms/support.html",
+      "privacy": "ms/privacy.html"
+    },
+    "nl-NL": {
+      "index": "nl-NL/index.html",
+      "support": "nl-NL/support.html",
+      "privacy": "nl-NL/privacy.html"
+    },
+    "no": {
+      "index": "no/index.html",
+      "support": "no/support.html",
+      "privacy": "no/privacy.html"
+    },
+    "or-IN": {
+      "index": "or-IN/index.html",
+      "support": "or-IN/support.html",
+      "privacy": "or-IN/privacy.html"
+    },
+    "pa-IN": {
+      "index": "pa-IN/index.html",
+      "support": "pa-IN/support.html",
+      "privacy": "pa-IN/privacy.html"
+    },
+    "pl": {
+      "index": "pl/index.html",
+      "support": "pl/support.html",
+      "privacy": "pl/privacy.html"
+    },
+    "pt-BR": {
+      "index": "pt-BR/index.html",
+      "support": "pt-BR/support.html",
+      "privacy": "pt-BR/privacy.html"
+    },
+    "pt-PT": {
+      "index": "pt-PT/index.html",
+      "support": "pt-PT/support.html",
+      "privacy": "pt-PT/privacy.html"
+    },
+    "ro": {
+      "index": "ro/index.html",
+      "support": "ro/support.html",
+      "privacy": "ro/privacy.html"
+    },
+    "ru": {
+      "index": "ru/index.html",
+      "support": "ru/support.html",
+      "privacy": "ru/privacy.html"
+    },
+    "sk": {
+      "index": "sk/index.html",
+      "support": "sk/support.html",
+      "privacy": "sk/privacy.html"
+    },
+    "sl-SI": {
+      "index": "sl-SI/index.html",
+      "support": "sl-SI/support.html",
+      "privacy": "sl-SI/privacy.html"
+    },
+    "sv": {
+      "index": "sv/index.html",
+      "support": "sv/support.html",
+      "privacy": "sv/privacy.html"
+    },
+    "ta-IN": {
+      "index": "ta-IN/index.html",
+      "support": "ta-IN/support.html",
+      "privacy": "ta-IN/privacy.html"
+    },
+    "te-IN": {
+      "index": "te-IN/index.html",
+      "support": "te-IN/support.html",
+      "privacy": "te-IN/privacy.html"
+    },
+    "th": {
+      "index": "th/index.html",
+      "support": "th/support.html",
+      "privacy": "th/privacy.html"
+    },
+    "tr": {
+      "index": "tr/index.html",
+      "support": "tr/support.html",
+      "privacy": "tr/privacy.html"
+    },
+    "uk": {
+      "index": "uk/index.html",
+      "support": "uk/support.html",
+      "privacy": "uk/privacy.html"
+    },
+    "ur-PK": {
+      "index": "ur-PK/index.html",
+      "support": "ur-PK/support.html",
+      "privacy": "ur-PK/privacy.html"
+    },
+    "vi": {
+      "index": "vi/index.html",
+      "support": "vi/support.html",
+      "privacy": "vi/privacy.html"
+    },
+    "zh-Hans": {
+      "index": "zh-Hans/index.html",
+      "support": "zh-Hans/support.html",
+      "privacy": "zh-Hans/privacy.html"
+    },
+    "zh-Hant": {
+      "index": "zh-Hant/index.html",
+      "support": "zh-Hant/support.html",
+      "privacy": "zh-Hant/privacy.html"
+    }
+  },
+  "language_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文",
+    "hr": "Hrvatski",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "nl-NL": "Nederlands",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ms": "Bahasa Melayu",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "no": "Norsk bokmål",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "es-MX": "Español (México)",
+    "es-ES": "Español",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt"
+  },
+  "icon_url": "https://alice51849.github.io/snapport-lite-support/icon.png",
+  "theme": {
+    "a1": "#5C67D8",
+    "a2": "#57A7E8",
+    "ink": "#24212C",
+    "muted": "#686273",
+    "background": "#FBFAFE",
+    "panel": "rgba(255,255,255,.82)"
+  },
+  "authority": {
+    "surface_contract_sha256": "4481c241b4ce7fc0429a2eb4351c01b581ce1bda5cc3b1ccf6d0ea54f38dea04",
+    "crosspromo_config_sha256": "e35d834b73262780c223f2704065378b9634277562827397fee8f913baac7b5d",
+    "catalog_content_digest": "8feba77d050061d0f270dba2e2d02989a41341d766f7540bea0249de2e8aafbc",
+    "catalog_date_modified": "2026-08-29",
+    "requirements_sha256": "a1ca2bbe50fd75e4c4fb0075910a48b7e7fd44f89e75131242e068f2514e290f",
+    "root_index_sha256": "3b5317e2909f25564519b68c4356a9165d443ddfbfc2cc1de090f2a937298fec",
+    "root_support_sha256": "b7529a1ab0934bd558d4800939da99103b7e2484e47dd0629fef0981faea0b48",
+    "root_privacy_sha256": "9759980117d82b9aed5c09aaec93572356966f9215ac8cacf620295ba50975c3",
+    "app_key": "snapportlite",
+    "assets/i18n.js_sha256": "a7aa8eaaa024ff51488b41c746845d2595955cbd3f0c557990568782ec05a239"
+  },
+  "authority_digest": "11fae134232065617ecbb97516551b067907fe82cdf21dbe52b2ac81f50a0ba4",
+  "surface_contract_digest": "4481c241b4ce7fc0429a2eb4351c01b581ce1bda5cc3b1ccf6d0ea54f38dea04",
+  "targets": [
+    {
+      "locale": "ar-SA",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "القوالب",
+        "الدعم",
+        "الخصوصية"
+      ],
+      "nav_label": "اللغة",
+      "language_label": "اللغة",
+      "support_label": "الانتقال إلى الدعم",
+      "contact_heading": "الدعم",
+      "contact_body": "تبقى صورك على iPhone. بلا رفع سحابي بلا تتبّع",
+      "contact_button": "الدعم",
+      "footer_note": "لا يستخدم هذا الموقع أي أدوات تتبع أو إعلانات أو تحليلات من أطراف أخرى.",
+      "title": "الخصوصية - Snapport Lite",
+      "description": "تبقى صورك على iPhone. بلا رفع سحابي بلا تتبّع",
+      "eyebrow": "الخصوصية",
+      "heading": "الخصوصية",
+      "lead": "تبقى صورك على iPhone.",
+      "sections": [
+        {
+          "heading": "الخصوصية",
+          "body": "بلا حساب · بلا إعلانات · بلا تتبّع · بلا رفع سحابي"
+        },
+        {
+          "heading": "تحرير على الجهاز",
+          "body": "يعمل اكتشاف الوجه على الجهاز لمحاذاة الصورة. لا تُخزَّن أي بيانات حيوية."
+        },
+        {
+          "heading": "أنت تتحكّم في التصدير والمشاركة",
+          "body": "احذف المشاريع المحلية في أي وقت"
+        },
+        {
+          "heading": "تحقّق من تحديثات القوالب",
+          "body": "يعمل Snapport Lite دون اتصال. يقوم التحقّق فقط بتنزيل قائمة مقاسات عامة؛ لا تُرسل أي بيانات شخصية."
+        },
+        {
+          "heading": "فتح لمرة واحدة",
+          "body": "شراء لمرة واحدة · بلا اشتراك"
+        },
+        {
+          "heading": "ملاحظة المتطلبات",
+          "body": "تختلف المتطلبات حسب الدولة والجهة ونوع الطلب. تحقّق دائماً من القواعد الرسمية قبل التقديم."
+        }
+      ],
+      "path": "ar-SA/privacy.html"
+    },
+    {
+      "locale": "bn-BD",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "টেমপ্লেটগুলি",
+        "সমর্থন",
+        "গোপনীয়তা"
+      ],
+      "nav_label": "ভাষা",
+      "language_label": "ভাষা",
+      "support_label": "সহায়তায় যান",
+      "contact_heading": "সমর্থন",
+      "contact_body": "আপনার ছবিগুলি আপনার আইফোনে থাকে। কোন ক্লাউড আপলোড নেই কোনও ট্র্যাকিং নেই",
+      "contact_button": "সমর্থন",
+      "footer_note": "এই সাইটে তৃতীয় পক্ষের কোনো ট্র্যাকার, বিজ্ঞাপন বা অ্যানালিটিক্স ব্যবহার করা হয় না।",
+      "title": "গোপনীয়তা - Snapport Lite",
+      "description": "আপনার ছবিগুলি আপনার আইফোনে থাকে। কোন ক্লাউড আপলোড নেই কোনও ট্র্যাকিং নেই",
+      "eyebrow": "গোপনীয়তা",
+      "heading": "গোপনীয়তা",
+      "lead": "আপনার ছবিগুলি আপনার আইফোনে থাকে।",
+      "sections": [
+        {
+          "heading": "গোপনীয়তা",
+          "body": "কোন অ্যাকাউন্ট নেই · কোন বিজ্ঞাপন নেই · কোনও ট্র্যাকিং নেই · কোন ক্লাউড আপলোড নেই"
+        },
+        {
+          "heading": "ডিভাইসে সম্পাদনা",
+          "body": "মুখ শনাক্তকরণ ডিভাইসে চলে যাতে আপনার ছবি সঠিকভাবে সাজানো যায়। কোন বায়োমেট্রিক পরিচয় সংরক্ষিত হয় না।"
+        },
+        {
+          "heading": "আপনি রপ্তানি এবং শেয়ারিং নিয়ন্ত্রণ করেন",
+          "body": "যেকোনো সময় স্থানীয় প্রকল্প মুছে ফেলুন"
+        },
+        {
+          "heading": "টেমপ্লেট আপডেট চেক করুন",
+          "body": "Snapport Lite সম্পূর্ণ অফলাইনে কাজ করে। চেক করা শুধুমাত্র সাধারণ আকারের একটি পাবলিক তালিকা ডাউনলোড করে — কোন ব্যক্তিগত তথ্য পাঠানো হয় না।"
+        },
+        {
+          "heading": "একবারের আনলক",
+          "body": "একবার কিনুন · কোনো সাবস্ক্রিপশন নেই"
+        },
+        {
+          "heading": "প্রয়োজনীয়তা নোট",
+          "body": "ছবির প্রয়োজনীয়তা দেশ, সংস্থা এবং আবেদন প্রকার অনুযায়ী পরিবর্তিত হয়। দয়া করে জমা দেওয়ার আগে অফিসিয়াল প্রয়োজনীয়তাগুলি পর্যালোচনা করুন।"
+        }
+      ],
+      "path": "bn-BD/privacy.html"
+    },
+    {
+      "locale": "ca",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Plantilles",
+        "Suport",
+        "Privadesa"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Anar a l'assistència",
+      "contact_heading": "Suport",
+      "contact_body": "Les teves fotos es queden al teu iPhone. Sense càrrega al núvol Sense seguiment",
+      "contact_button": "Suport",
+      "footer_note": "Aquest lloc no fa servir rastrejadors, publicitat ni analítiques de tercers.",
+      "title": "Privadesa - Snapport Lite",
+      "description": "Les teves fotos es queden al teu iPhone. Sense càrrega al núvol Sense seguiment",
+      "eyebrow": "Privadesa",
+      "heading": "Privadesa",
+      "lead": "Les teves fotos es queden al teu iPhone.",
+      "sections": [
+        {
+          "heading": "Privadesa",
+          "body": "Sense compte · Sense anuncis · Sense seguiment · Sense càrrega al núvol"
+        },
+        {
+          "heading": "Edició al dispositiu",
+          "body": "La detecció de cares es realitza al dispositiu per ajudar a alinear la teva foto. No es desa cap identitat biomètrica."
+        },
+        {
+          "heading": "Tu controles l'exportació i el compartiment",
+          "body": "Esborra projectes locals en qualsevol moment"
+        },
+        {
+          "heading": "Comprova les Actualitzacions de Plantilla",
+          "body": "Snapport Lite funciona completament fora de línia. Comprovar només descarrega una llista pública de mides comunes — no s'envia cap dada personal."
+        },
+        {
+          "heading": "Desbloqueig únic",
+          "body": "Compra única · sense subscripció"
+        },
+        {
+          "heading": "Nota de requisits",
+          "body": "Els requisits de la foto varien segons el país, l'agència i el tipus d'aplicació. Si us plau, revisa els requisits oficials abans de presentar-los."
+        }
+      ],
+      "path": "ca/privacy.html"
+    },
+    {
+      "locale": "cs",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Šablony",
+        "Podpora",
+        "Soukromí"
+      ],
+      "nav_label": "Jazyk",
+      "language_label": "Jazyk",
+      "support_label": "Přejít na podporu",
+      "contact_heading": "Podpora",
+      "contact_body": "Vaše fotografie zůstávají na vašem iPhonu. Žádné nahrávání do cloudu Žádné sledování",
+      "contact_button": "Podpora",
+      "footer_note": "Tento web nepoužívá sledovací nástroje, reklamu ani analytiku třetích stran.",
+      "title": "Soukromí - Snapport Lite",
+      "description": "Vaše fotografie zůstávají na vašem iPhonu. Žádné nahrávání do cloudu Žádné sledování",
+      "eyebrow": "Soukromí",
+      "heading": "Soukromí",
+      "lead": "Vaše fotografie zůstávají na vašem iPhonu.",
+      "sections": [
+        {
+          "heading": "Soukromí",
+          "body": "Žádný účet · Žádné reklamy · Žádné sledování · Žádné nahrávání do cloudu"
+        },
+        {
+          "heading": "Úpravy na zařízení",
+          "body": "Detekce obličeje probíhá na zařízení, aby pomohla s zarovnáním vaší fotografie. Žádná biometrická identita není uložena."
+        },
+        {
+          "heading": "Ovládáte export a sdílení",
+          "body": "Můžete kdykoli smazat místní projekty"
+        },
+        {
+          "heading": "Zkontrolovat aktualizace šablon",
+          "body": "Snapport Lite funguje plně offline. Kontrola pouze stáhne veřejný seznam běžných velikostí — žádná osobní data nejsou odesílána."
+        },
+        {
+          "heading": "Jednorázové odemknutí",
+          "body": "Jednorázový nákup · bez předplatného"
+        },
+        {
+          "heading": "Poznámka k požadavkům",
+          "body": "Požadavky na fotografie se liší podle země, agentury a typu žádosti. Před odesláním si prosím zkontrolujte oficiální požadavky."
+        }
+      ],
+      "path": "cs/privacy.html"
+    },
+    {
+      "locale": "da",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Skabeloner",
+        "Support",
+        "Privatliv"
+      ],
+      "nav_label": "Sprog",
+      "language_label": "Sprog",
+      "support_label": "Gå til support",
+      "contact_heading": "Support",
+      "contact_body": "Dine fotos forbliver på din iPhone. Ingen cloud-upload Ingen sporing",
+      "contact_button": "Support",
+      "footer_note": "Denne side bruger ikke tredjeparts trackere, reklamer eller analyseværktøjer.",
+      "title": "Privatliv - Snapport Lite",
+      "description": "Dine fotos forbliver på din iPhone. Ingen cloud-upload Ingen sporing",
+      "eyebrow": "Privatliv",
+      "heading": "Privatliv",
+      "lead": "Dine fotos forbliver på din iPhone.",
+      "sections": [
+        {
+          "heading": "Privatliv",
+          "body": "Ingen konto · Ingen annoncer · Ingen sporing · Ingen cloud-upload"
+        },
+        {
+          "heading": "Redigering på enheden",
+          "body": "Ansigtsgenkendelse kører på enheden for at hjælpe med at justere dit foto. Ingen biometrisk identitet gemmes."
+        },
+        {
+          "heading": "Du styrer eksport og deling",
+          "body": "Slet lokale projekter når som helst"
+        },
+        {
+          "heading": "Tjek for Skabelonopdateringer",
+          "body": "Snapport Lite fungerer fuldt offline. Tjekker downloader kun en offentlig liste over almindelige størrelser — ingen personlige data sendes."
+        },
+        {
+          "heading": "Engangsoplåsning",
+          "body": "Engangskøb · intet abonnement"
+        },
+        {
+          "heading": "Kravsnotat",
+          "body": "Fotokrav varierer efter land, agentur og ansøgningstype. Gennemgå venligst de officielle krav, før du indsender."
+        }
+      ],
+      "path": "da/privacy.html"
+    },
+    {
+      "locale": "de-DE",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Vorlagen",
+        "Support",
+        "Datenschutz"
+      ],
+      "nav_label": "Sprache",
+      "language_label": "Sprache",
+      "support_label": "Zum Support",
+      "contact_heading": "Support",
+      "contact_body": "Deine Fotos bleiben auf deinem iPhone. Kein Cloud-Upload Kein Tracking",
+      "contact_button": "Support",
+      "footer_note": "Diese Website verwendet kein Tracking, keine Werbung und keine Analyse-Dienste von Dritten.",
+      "title": "Datenschutz - Snapport Lite",
+      "description": "Deine Fotos bleiben auf deinem iPhone. Kein Cloud-Upload Kein Tracking",
+      "eyebrow": "Datenschutz",
+      "heading": "Datenschutz",
+      "lead": "Deine Fotos bleiben auf deinem iPhone.",
+      "sections": [
+        {
+          "heading": "Datenschutz",
+          "body": "Kein Konto · Keine Werbung · Kein Tracking · Kein Cloud-Upload"
+        },
+        {
+          "heading": "Bearbeitung auf dem Gerät",
+          "body": "Die Gesichtserkennung läuft auf dem Gerät, um dein Foto auszurichten. Es werden keine biometrischen Daten gespeichert."
+        },
+        {
+          "heading": "Du steuerst Export und Teilen",
+          "body": "Lokale Projekte jederzeit löschen"
+        },
+        {
+          "heading": "Nach Vorlagen-Updates suchen",
+          "body": "Snapport Lite funktioniert offline. Die Prüfung lädt nur eine öffentliche Größenliste – es werden keine persönlichen Daten gesendet."
+        },
+        {
+          "heading": "Einmalige Freischaltung",
+          "body": "Einmalkauf · kein Abo"
+        },
+        {
+          "heading": "Hinweis zu Vorgaben",
+          "body": "Die Anforderungen variieren je nach Land, Behörde und Antragsart. Prüfe vor dem Einreichen stets die offiziellen Vorgaben."
+        }
+      ],
+      "path": "de-DE/privacy.html"
+    },
+    {
+      "locale": "el",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Πρότυπα",
+        "Υποστήριξη",
+        "Απόρρητο"
+      ],
+      "nav_label": "Γλώσσα",
+      "language_label": "Γλώσσα",
+      "support_label": "Μετάβαση στην υποστήριξη",
+      "contact_heading": "Υποστήριξη",
+      "contact_body": "Οι φωτογραφίες σας παραμένουν στο iPhone σας. Χωρίς ανέβασμα στο cloud Χωρίς παρακολούθηση",
+      "contact_button": "Υποστήριξη",
+      "footer_note": "Αυτός ο ιστότοπος δεν χρησιμοποιεί ιχνηλάτες, διαφημίσεις ή αναλυτικά εργαλεία τρίτων.",
+      "title": "Απόρρητο - Snapport Lite",
+      "description": "Οι φωτογραφίες σας παραμένουν στο iPhone σας. Χωρίς ανέβασμα στο cloud Χωρίς παρακολούθηση",
+      "eyebrow": "Απόρρητο",
+      "heading": "Απόρρητο",
+      "lead": "Οι φωτογραφίες σας παραμένουν στο iPhone σας.",
+      "sections": [
+        {
+          "heading": "Απόρρητο",
+          "body": "Χωρίς λογαριασμό · Χωρίς διαφημίσεις · Χωρίς παρακολούθηση · Χωρίς ανέβασμα στο cloud"
+        },
+        {
+          "heading": "Επεξεργασία στη συσκευή",
+          "body": "Η ανίχνευση προσώπου γίνεται στη συσκευή για να βοηθήσει στην ευθυγράμμιση της φωτογραφίας σας. Δεν αποθηκεύεται βιομετρική ταυτότητα."
+        },
+        {
+          "heading": "Εσείς ελέγχετε την εξαγωγή και την κοινοποίηση",
+          "body": "Διαγράψτε τοπικά έργα οποιαδήποτε στιγμή"
+        },
+        {
+          "heading": "Έλεγχος για Ενημερώσεις Προτύπων",
+          "body": "Το Snapport Lite λειτουργεί πλήρως εκτός σύνδεσης. Ο έλεγχος κατεβάζει μόνο μια δημόσια λίστα κοινών μεγεθών — δεν αποστέλλονται προσωπικά δεδομένα."
+        },
+        {
+          "heading": "Εφάπαξ ξεκλείδωμα",
+          "body": "Εφάπαξ αγορά · χωρίς συνδρομή"
+        },
+        {
+          "heading": "Σημείωση απαιτήσεων",
+          "body": "Οι απαιτήσεις φωτογραφίας διαφέρουν ανά χώρα, υπηρεσία και τύπο αίτησης. Παρακαλώ ελέγξτε τις επίσημες απαιτήσεις πριν υποβάλετε."
+        }
+      ],
+      "path": "el/privacy.html"
+    },
+    {
+      "locale": "es-ES",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Plantillas",
+        "Soporte",
+        "Privacidad"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir al soporte",
+      "contact_heading": "Soporte",
+      "contact_body": "Tus fotos se quedan en tu iPhone. Sin subida a la nube Sin seguimiento",
+      "contact_button": "Soporte",
+      "footer_note": "Este sitio no utiliza rastreo, publicidad ni analítica de terceros.",
+      "title": "Privacidad - Snapport Lite",
+      "description": "Tus fotos se quedan en tu iPhone. Sin subida a la nube Sin seguimiento",
+      "eyebrow": "Privacidad",
+      "heading": "Privacidad",
+      "lead": "Tus fotos se quedan en tu iPhone.",
+      "sections": [
+        {
+          "heading": "Privacidad",
+          "body": "Sin cuenta · Sin anuncios · Sin seguimiento · Sin subida a la nube"
+        },
+        {
+          "heading": "Edición en el dispositivo",
+          "body": "La detección de caras se ejecuta en el dispositivo para alinear tu foto. No se guardan datos biométricos."
+        },
+        {
+          "heading": "Tú controlas la exportación y el compartir",
+          "body": "Elimina proyectos locales cuando quieras"
+        },
+        {
+          "heading": "Buscar actualizaciones de plantillas",
+          "body": "Snapport Lite funciona sin conexión. Comprobar solo descarga una lista pública de tamaños; no se envían datos personales."
+        },
+        {
+          "heading": "Desbloqueo único",
+          "body": "Compra única · sin suscripción"
+        },
+        {
+          "heading": "Nota sobre requisitos",
+          "body": "Los requisitos de la foto varían según el país, el organismo y el tipo de solicitud. Revisa siempre las normas oficiales antes de enviar."
+        }
+      ],
+      "path": "es-ES/privacy.html"
+    },
+    {
+      "locale": "es-MX",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Plantillas",
+        "Soporte",
+        "Privacidad"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir a soporte",
+      "contact_heading": "Soporte",
+      "contact_body": "Tus fotos se quedan en tu iPhone. Sin subida a la nube Sin seguimiento",
+      "contact_button": "Soporte",
+      "footer_note": "Este sitio no usa rastreadores, publicidad ni analítica de terceros.",
+      "title": "Privacidad - Snapport Lite",
+      "description": "Tus fotos se quedan en tu iPhone. Sin subida a la nube Sin seguimiento",
+      "eyebrow": "Privacidad",
+      "heading": "Privacidad",
+      "lead": "Tus fotos se quedan en tu iPhone.",
+      "sections": [
+        {
+          "heading": "Privacidad",
+          "body": "Sin cuenta · Sin anuncios · Sin seguimiento · Sin subida a la nube"
+        },
+        {
+          "heading": "Edición en el dispositivo",
+          "body": "La detección de caras se ejecuta en el dispositivo para alinear tu foto. No se guardan datos biométricos."
+        },
+        {
+          "heading": "Tú controlas la exportación y el compartir",
+          "body": "Elimina proyectos locales cuando quieras"
+        },
+        {
+          "heading": "Buscar actualizaciones de plantillas",
+          "body": "Snapport Lite funciona sin conexión. Comprobar solo descarga una lista pública de tamaños; no se envían datos personales."
+        },
+        {
+          "heading": "Desbloqueo único",
+          "body": "Compra única · sin suscripción"
+        },
+        {
+          "heading": "Nota sobre requisitos",
+          "body": "Los requisitos de la foto varían según el país, el organismo y el tipo de solicitud. Revisa siempre las normas oficiales antes de enviar."
+        }
+      ],
+      "path": "es-MX/privacy.html"
+    },
+    {
+      "locale": "fi",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Mallit",
+        "Tuki",
+        "Yksityisyys"
+      ],
+      "nav_label": "Kieli",
+      "language_label": "Kieli",
+      "support_label": "Siirry tukeen",
+      "contact_heading": "Tuki",
+      "contact_body": "Kuvasi pysyvät iPhonessasi. Ei pilvitallennusta Ei seurantaa",
+      "contact_button": "Tuki",
+      "footer_note": "Tämä sivusto ei käytä kolmansien osapuolten seurantaa, mainoksia eikä analytiikkaa.",
+      "title": "Yksityisyys - Snapport Lite",
+      "description": "Kuvasi pysyvät iPhonessasi. Ei pilvitallennusta Ei seurantaa",
+      "eyebrow": "Yksityisyys",
+      "heading": "Yksityisyys",
+      "lead": "Kuvasi pysyvät iPhonessasi.",
+      "sections": [
+        {
+          "heading": "Yksityisyys",
+          "body": "Ei tiliä · Ei mainoksia · Ei seurantaa · Ei pilvitallennusta"
+        },
+        {
+          "heading": "Laitteella tapahtuva muokkaus",
+          "body": "Kasvojentunnistus toimii laitteella auttaakseen kohdistamaan kuvasi. Biometrisiä tietoja ei tallenneta."
+        },
+        {
+          "heading": "Sinä hallitset vientiä ja jakamista",
+          "body": "Poista paikalliset projektit milloin tahansa"
+        },
+        {
+          "heading": "Tarkista mallipäivitykset",
+          "body": "Snapport Lite toimii täysin offline-tilassa. Tarkistaminen lataa vain julkisen luettelon yleisistä ko'oista — henkilökohtaisia tietoja ei lähetetä."
+        },
+        {
+          "heading": "Kertaluonteinen avaus",
+          "body": "Kertaostos · ei tilausta"
+        },
+        {
+          "heading": "Vaatimusten huomautus",
+          "body": "Valokuvavaatimukset vaihtelevat maittain, virastoittain ja hakemustyypeittäin. Tarkista viralliset vaatimukset ennen lähettämistä."
+        }
+      ],
+      "path": "fi/privacy.html"
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Modèles",
+        "Assistance",
+        "Confidentialité"
+      ],
+      "nav_label": "Langue",
+      "language_label": "Langue",
+      "support_label": "Aller à l'assistance",
+      "contact_heading": "Assistance",
+      "contact_body": "Vos photos restent sur votre iPhone. Sans envoi au cloud Sans suivi",
+      "contact_button": "Assistance",
+      "footer_note": "Ce site n'utilise aucun traceur, aucune publicité ni aucun outil d'analyse tiers.",
+      "title": "Confidentialité - Snapport Lite",
+      "description": "Vos photos restent sur votre iPhone. Sans envoi au cloud Sans suivi",
+      "eyebrow": "Confidentialité",
+      "heading": "Confidentialité",
+      "lead": "Vos photos restent sur votre iPhone.",
+      "sections": [
+        {
+          "heading": "Confidentialité",
+          "body": "Sans compte · Sans publicité · Sans suivi · Sans envoi au cloud"
+        },
+        {
+          "heading": "Édition sur l'appareil",
+          "body": "La détection du visage s'exécute sur l'appareil pour aligner votre photo. Aucune donnée biométrique n'est conservée."
+        },
+        {
+          "heading": "Vous gérez l'export et le partage",
+          "body": "Supprimez les projets locaux à tout moment"
+        },
+        {
+          "heading": "Rechercher des mises à jour de modèles",
+          "body": "Snapport Lite fonctionne hors ligne. La vérification télécharge seulement une liste publique de tailles ; aucune donnée personnelle n'est envoyée."
+        },
+        {
+          "heading": "Déblocage unique",
+          "body": "Achat unique · sans abonnement"
+        },
+        {
+          "heading": "Note sur les exigences",
+          "body": "Les exigences varient selon le pays, l'administration et le type de demande. Vérifiez toujours les règles officielles avant d'envoyer."
+        }
+      ],
+      "path": "fr-CA/privacy.html"
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Modèles",
+        "Assistance",
+        "Confidentialité"
+      ],
+      "nav_label": "Langue",
+      "language_label": "Langue",
+      "support_label": "Consulter l'assistance",
+      "contact_heading": "Assistance",
+      "contact_body": "Vos photos restent sur votre iPhone. Sans envoi au cloud Sans suivi",
+      "contact_button": "Assistance",
+      "footer_note": "Ce site n'utilise ni suivi, ni publicité, ni outil d'analyse tiers.",
+      "title": "Confidentialité - Snapport Lite",
+      "description": "Vos photos restent sur votre iPhone. Sans envoi au cloud Sans suivi",
+      "eyebrow": "Confidentialité",
+      "heading": "Confidentialité",
+      "lead": "Vos photos restent sur votre iPhone.",
+      "sections": [
+        {
+          "heading": "Confidentialité",
+          "body": "Sans compte · Sans publicité · Sans suivi · Sans envoi au cloud"
+        },
+        {
+          "heading": "Édition sur l'appareil",
+          "body": "La détection du visage s'exécute sur l'appareil pour aligner votre photo. Aucune donnée biométrique n'est conservée."
+        },
+        {
+          "heading": "Vous gérez l'export et le partage",
+          "body": "Supprimez les projets locaux à tout moment"
+        },
+        {
+          "heading": "Rechercher des mises à jour de modèles",
+          "body": "Snapport Lite fonctionne hors ligne. La vérification télécharge seulement une liste publique de tailles ; aucune donnée personnelle n'est envoyée."
+        },
+        {
+          "heading": "Déblocage unique",
+          "body": "Achat unique · sans abonnement"
+        },
+        {
+          "heading": "Note sur les exigences",
+          "body": "Les exigences varient selon le pays, l'administration et le type de demande. Vérifiez toujours les règles officielles avant d'envoyer."
+        }
+      ],
+      "path": "fr-FR/privacy.html"
+    },
+    {
+      "locale": "gu-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ટેમ્પલેટ્સ",
+        "સહાય",
+        "ગોપનીયતા"
+      ],
+      "nav_label": "ભાષા",
+      "language_label": "ભાષા",
+      "support_label": "સહાય પર જાઓ",
+      "contact_heading": "સહાય",
+      "contact_body": "તમારા ફોટા તમારા iPhone પર રહે છે. કોઈ ક્લાઉડ અપલોડ નથી કોઈ ટ્રેકિંગ નથી",
+      "contact_button": "સહાય",
+      "footer_note": "આ સાઇટ ત્રીજા પક્ષના ટ્રૅકર, જાહેરાત કે એનાલિટિક્સ વાપરતી નથી.",
+      "title": "ગોપનીયતા - Snapport Lite",
+      "description": "તમારા ફોટા તમારા iPhone પર રહે છે. કોઈ ક્લાઉડ અપલોડ નથી કોઈ ટ્રેકિંગ નથી",
+      "eyebrow": "ગોપનીયતા",
+      "heading": "ગોપનીયતા",
+      "lead": "તમારા ફોટા તમારા iPhone પર રહે છે.",
+      "sections": [
+        {
+          "heading": "ગોપનીયતા",
+          "body": "કોઈ ખાતું નથી · કોઈ જાહેરાતો નથી · કોઈ ટ્રેકિંગ નથી · કોઈ ક્લાઉડ અપલોડ નથી"
+        },
+        {
+          "heading": "ડિવાઇસ પર સંપાદન",
+          "body": "ફેસ ડિટેક્શન ડિવાઇસ પર ચાલે છે જેથી તમારા ફોટાને સરખાવા માટે મદદ મળે. કોઈ બાયોમેટ્રિક ઓળખ સાચવવામાં નથી આવતી."
+        },
+        {
+          "heading": "તમે નિકાસ અને શેરિંગને નિયંત્રિત કરો છો",
+          "body": "ક્યારે પણ સ્થાનિક પ્રોજેક્ટ્સ કાઢી નાખો"
+        },
+        {
+          "heading": "ટેમ્પલેટ અપડેટ્સ માટે તપાસો",
+          "body": "સ્નેપપોર્ટ સંપૂર્ણ રીતે ઑફલાઇન કાર્ય કરે છે. તપાસવાથી માત્ર સામાન્ય કદોની જાહેર યાદી ડાઉનલોડ થાય છે — કોઈ વ્યક્તિગત માહિતી મોકલવામાં આવતી નથી."
+        },
+        {
+          "heading": "એક વખતનું અનલૉક",
+          "body": "એક વખતની ખરીદી · કોઈ સબ્સ્ક્રિપ્શન નહીં"
+        },
+        {
+          "heading": "આવશ્યકતાઓનો નોંધ",
+          "body": "તસવીરનાં આવશ્યકતાઓ દેશ, એજન્સી અને અરજીના પ્રકાર અનુસાર બદલાય છે. કૃપા કરીને સબમિટ કરતા પહેલા અધિકૃત આવશ્યકતાઓની સમીક્ષા કરો."
+        }
+      ],
+      "path": "gu-IN/privacy.html"
+    },
+    {
+      "locale": "he",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "תבניות",
+        "תמיכה",
+        "פרטיות"
+      ],
+      "nav_label": "שפה",
+      "language_label": "שפה",
+      "support_label": "מעבר לתמיכה",
+      "contact_heading": "תמיכה",
+      "contact_body": "התמונות שלך נשארות על ה-iPhone שלך. אין העלאת ענן אין מעקב",
+      "contact_button": "תמיכה",
+      "footer_note": "האתר הזה אינו משתמש בכלי מעקב, פרסומות או אנליטיקה של צד שלישי.",
+      "title": "פרטיות - Snapport Lite",
+      "description": "התמונות שלך נשארות על ה-iPhone שלך. אין העלאת ענן אין מעקב",
+      "eyebrow": "פרטיות",
+      "heading": "פרטיות",
+      "lead": "התמונות שלך נשארות על ה-iPhone שלך.",
+      "sections": [
+        {
+          "heading": "פרטיות",
+          "body": "אין חשבון · אין פרסומות · אין מעקב · אין העלאת ענן"
+        },
+        {
+          "heading": "עריכה במכשיר",
+          "body": "זיהוי פנים מתבצע במכשיר כדי לעזור ליישר את התמונה שלך. אין זהות ביומטרית נשמרת."
+        },
+        {
+          "heading": "אתה שולט ביצוא ובשיתוף",
+          "body": "מחק פרויקטים מקומיים בכל עת"
+        },
+        {
+          "heading": "בדוק עדכוני תבניות",
+          "body": "Snapport Lite פועל במצב לא מקוון לחלוטין. בדיקה מורידה רק רשימה ציבורית של גדלים נפוצים — אין נתונים אישיים שנשלחים."
+        },
+        {
+          "heading": "פתיחה חד־פעמית",
+          "body": "רכישה חד־פעמית · ללא מנוי"
+        },
+        {
+          "heading": "הערות דרישות",
+          "body": "דרישות התמונה משתנות לפי מדינה, סוכנות וסוג בקשה. אנא בדוק את הדרישות הרשמית לפני ההגשה."
+        }
+      ],
+      "path": "he/privacy.html"
+    },
+    {
+      "locale": "hi",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "टेम्पलेट",
+        "सहायता",
+        "गोपनीयता"
+      ],
+      "nav_label": "भाषा",
+      "language_label": "भाषा",
+      "support_label": "सहायता पर जाएँ",
+      "contact_heading": "सहायता",
+      "contact_body": "आपकी फ़ोटो आपके iPhone पर रहती हैं। कोई क्लाउड अपलोड नहीं कोई ट्रैकिंग नहीं",
+      "contact_button": "सहायता",
+      "footer_note": "यह साइट किसी तीसरे पक्ष के ट्रैकर, विज्ञापन या एनालिटिक्स का उपयोग नहीं करती।",
+      "title": "गोपनीयता - Snapport Lite",
+      "description": "आपकी फ़ोटो आपके iPhone पर रहती हैं। कोई क्लाउड अपलोड नहीं कोई ट्रैकिंग नहीं",
+      "eyebrow": "गोपनीयता",
+      "heading": "गोपनीयता",
+      "lead": "आपकी फ़ोटो आपके iPhone पर रहती हैं।",
+      "sections": [
+        {
+          "heading": "गोपनीयता",
+          "body": "कोई खाता नहीं · कोई विज्ञापन नहीं · कोई ट्रैकिंग नहीं · कोई क्लाउड अपलोड नहीं"
+        },
+        {
+          "heading": "डिवाइस पर संपादन",
+          "body": "फ़ोटो संरेखित करने के लिए चेहरा पहचान डिवाइस पर चलती है। कोई बायोमेट्रिक डेटा संग्रहित नहीं होता।"
+        },
+        {
+          "heading": "निर्यात और साझाकरण आप नियंत्रित करते हैं",
+          "body": "स्थानीय प्रोजेक्ट कभी भी हटाएँ"
+        },
+        {
+          "heading": "टेम्पलेट अपडेट जाँचें",
+          "body": "Snapport Lite ऑफ़लाइन काम करता है। जाँच केवल एक सार्वजनिक आकार सूची डाउनलोड करती है; कोई निजी डेटा नहीं भेजा जाता।"
+        },
+        {
+          "heading": "एक बार का अनलॉक",
+          "body": "एक बार खरीदें · कोई सदस्यता नहीं"
+        },
+        {
+          "heading": "आवश्यकता नोट",
+          "body": "आवश्यकताएँ देश, एजेंसी और आवेदन प्रकार के अनुसार बदलती हैं। जमा करने से पहले हमेशा आधिकारिक नियम जाँचें।"
+        }
+      ],
+      "path": "hi/privacy.html"
+    },
+    {
+      "locale": "hr",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Predlošci",
+        "Podrška",
+        "Privatnost"
+      ],
+      "nav_label": "Jezik",
+      "language_label": "Jezik",
+      "support_label": "Idi na podršku",
+      "contact_heading": "Podrška",
+      "contact_body": "Vaše fotografije ostaju na vašem iPhoneu. Nema prijenosa u oblak Nema praćenja",
+      "contact_button": "Podrška",
+      "footer_note": "Ova stranica ne koristi alate za praćenje, oglase ni analitiku trećih strana.",
+      "title": "Privatnost - Snapport Lite",
+      "description": "Vaše fotografije ostaju na vašem iPhoneu. Nema prijenosa u oblak Nema praćenja",
+      "eyebrow": "Privatnost",
+      "heading": "Privatnost",
+      "lead": "Vaše fotografije ostaju na vašem iPhoneu.",
+      "sections": [
+        {
+          "heading": "Privatnost",
+          "body": "Nema računa · Nema oglasa · Nema praćenja · Nema prijenosa u oblak"
+        },
+        {
+          "heading": "Uređivanje na uređaju",
+          "body": "Prepoznavanje lica radi na uređaju kako bi pomoglo u poravnanju vaše fotografije. Nema pohranjene biometrijske identifikacije."
+        },
+        {
+          "heading": "Vi kontrolirate izvoz i dijeljenje",
+          "body": "Izbrišite lokalne projekte u bilo kojem trenutku"
+        },
+        {
+          "heading": "Provjeri ažuriranja predložaka",
+          "body": "Snapport Lite radi potpuno offline. Provjera samo preuzima javni popis uobičajenih veličina — nijedan osobni podatak se ne šalje."
+        },
+        {
+          "heading": "Jednokratno otključavanje",
+          "body": "Jednokratna kupnja · bez pretplate"
+        },
+        {
+          "heading": "Napomena o zahtjevima",
+          "body": "Zahtjevi za fotografije variraju ovisno o zemlji, agenciji i vrsti prijave. Molimo pregledajte službene zahtjeve prije slanja."
+        }
+      ],
+      "path": "hr/privacy.html"
+    },
+    {
+      "locale": "hu",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Sablonok",
+        "Támogatás",
+        "Adatvédelem"
+      ],
+      "nav_label": "Nyelv",
+      "language_label": "Nyelv",
+      "support_label": "Tovább a támogatáshoz",
+      "contact_heading": "Támogatás",
+      "contact_body": "A fényképeid az iPhone-odon maradnak. Nincs felhőfeltöltés Nincs nyomkövetés",
+      "contact_button": "Támogatás",
+      "footer_note": "Ez az oldal nem használ harmadik féltől származó nyomkövetőt, hirdetést vagy analitikát.",
+      "title": "Adatvédelem - Snapport Lite",
+      "description": "A fényképeid az iPhone-odon maradnak. Nincs felhőfeltöltés Nincs nyomkövetés",
+      "eyebrow": "Adatvédelem",
+      "heading": "Adatvédelem",
+      "lead": "A fényképeid az iPhone-odon maradnak.",
+      "sections": [
+        {
+          "heading": "Adatvédelem",
+          "body": "Nincs fiók · Nincsenek hirdetések · Nincs nyomkövetés · Nincs felhőfeltöltés"
+        },
+        {
+          "heading": "Eszközön végzett szerkesztés",
+          "body": "Az arcfelismerés az eszközön fut, hogy segítsen a fényképed igazításában. Nincs tárolva biometrikus azonosító."
+        },
+        {
+          "heading": "Te irányítod az exportálást és a megosztást",
+          "body": "Helyi projekteket bármikor törölhetsz"
+        },
+        {
+          "heading": "Ellenőrizd a Sablon Frissítéseket",
+          "body": "A Snapport Lite teljesen offline működik. Az ellenőrzés csak egy nyilvános lista letöltését jelenti a közönséges méretekről — személyes adatokat nem küldünk."
+        },
+        {
+          "heading": "Egyszeri feloldás",
+          "body": "Egyszeri vásárlás · nincs előfizetés"
+        },
+        {
+          "heading": "Követelmények megjegyzés",
+          "body": "A fénykép követelményei országonként, ügynökségenként és alkalmazástípusonként változnak. Kérjük, ellenőrizd az hivatalos követelményeket a benyújtás előtt."
+        }
+      ],
+      "path": "hu/privacy.html"
+    },
+    {
+      "locale": "id",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Templat",
+        "Dukungan",
+        "Privasi"
+      ],
+      "nav_label": "Bahasa",
+      "language_label": "Bahasa",
+      "support_label": "Ke halaman dukungan",
+      "contact_heading": "Dukungan",
+      "contact_body": "Foto Anda tetap di iPhone. Tanpa unggah ke cloud Tanpa pelacakan",
+      "contact_button": "Dukungan",
+      "footer_note": "Situs ini tidak memakai pelacak, iklan, atau analitik pihak ketiga.",
+      "title": "Privasi - Snapport Lite",
+      "description": "Foto Anda tetap di iPhone. Tanpa unggah ke cloud Tanpa pelacakan",
+      "eyebrow": "Privasi",
+      "heading": "Privasi",
+      "lead": "Foto Anda tetap di iPhone.",
+      "sections": [
+        {
+          "heading": "Privasi",
+          "body": "Tanpa akun · Tanpa iklan · Tanpa pelacakan · Tanpa unggah ke cloud"
+        },
+        {
+          "heading": "Pengeditan di perangkat",
+          "body": "Deteksi wajah berjalan di perangkat untuk menyejajarkan foto. Tidak ada data biometrik yang disimpan."
+        },
+        {
+          "heading": "Anda mengatur ekspor dan berbagi",
+          "body": "Hapus proyek lokal kapan saja"
+        },
+        {
+          "heading": "Periksa pembaruan templat",
+          "body": "Snapport Lite bekerja luring. Pemeriksaan hanya mengunduh daftar ukuran publik; tidak ada data pribadi yang dikirim."
+        },
+        {
+          "heading": "Buka sekali bayar",
+          "body": "Sekali beli · tanpa langganan"
+        },
+        {
+          "heading": "Catatan persyaratan",
+          "body": "Persyaratan berbeda menurut negara, instansi, dan jenis pengajuan. Selalu periksa aturan resmi sebelum mengirim."
+        }
+      ],
+      "path": "id/privacy.html"
+    },
+    {
+      "locale": "it",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Modelli",
+        "Supporto",
+        "Privacy"
+      ],
+      "nav_label": "Lingua",
+      "language_label": "Lingua",
+      "support_label": "Vai all'assistenza",
+      "contact_heading": "Supporto",
+      "contact_body": "Le tue foto restano sul tuo iPhone. Nessun caricamento su cloud Nessun tracciamento",
+      "contact_button": "Supporto",
+      "footer_note": "Questo sito non usa tracker, pubblicità o analytics di terze parti.",
+      "title": "Privacy - Snapport Lite",
+      "description": "Le tue foto restano sul tuo iPhone. Nessun caricamento su cloud Nessun tracciamento",
+      "eyebrow": "Privacy",
+      "heading": "Privacy",
+      "lead": "Le tue foto restano sul tuo iPhone.",
+      "sections": [
+        {
+          "heading": "Privacy",
+          "body": "Nessun account · Niente pubblicità · Nessun tracciamento · Nessun caricamento su cloud"
+        },
+        {
+          "heading": "Modifica sul dispositivo",
+          "body": "Il rilevamento del volto avviene sul dispositivo per allineare la foto. Nessun dato biometrico viene memorizzato."
+        },
+        {
+          "heading": "Controlli tu esportazione e condivisione",
+          "body": "Elimina i progetti locali quando vuoi"
+        },
+        {
+          "heading": "Cerca aggiornamenti modelli",
+          "body": "Snapport Lite funziona offline. Il controllo scarica solo un elenco pubblico di formati; nessun dato personale viene inviato."
+        },
+        {
+          "heading": "Sblocco una tantum",
+          "body": "Acquisto unico · nessun abbonamento"
+        },
+        {
+          "heading": "Nota sui requisiti",
+          "body": "I requisiti variano per Paese, ente e tipo di domanda. Verifica sempre le regole ufficiali prima di inviare."
+        }
+      ],
+      "path": "it/privacy.html"
+    },
+    {
+      "locale": "ja",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "テンプレート",
+        "サポート",
+        "プライバシー"
+      ],
+      "nav_label": "言語",
+      "language_label": "言語",
+      "support_label": "サポートを見る",
+      "contact_heading": "サポート",
+      "contact_body": "あなたの写真はiPhoneに保存されます。 クラウドアップロードなし 追跡なし",
+      "contact_button": "サポート",
+      "footer_note": "このサイトでは第三者のトラッキング、広告、アナリティクスを使用していません。",
+      "title": "プライバシー - Snapport Lite",
+      "description": "あなたの写真はiPhoneに保存されます。 クラウドアップロードなし 追跡なし",
+      "eyebrow": "プライバシー",
+      "heading": "プライバシー",
+      "lead": "あなたの写真はiPhoneに保存されます。",
+      "sections": [
+        {
+          "heading": "プライバシー",
+          "body": "アカウントなし · 広告なし · 追跡なし · クラウドアップロードなし"
+        },
+        {
+          "heading": "デバイス上での編集",
+          "body": "顔認識はデバイス上で実行され、写真の整列を助けます。生体情報は保存されません。"
+        },
+        {
+          "heading": "エクスポートと共有をあなたが管理",
+          "body": "ローカルプロジェクトをいつでも削除"
+        },
+        {
+          "heading": "テンプレートの更新を確認",
+          "body": "Snapport Liteは完全にオフラインで動作します。確認は一般的なサイズの公開リストをダウンロードするだけで、個人データは送信されません。"
+        },
+        {
+          "heading": "買い切りのロック解除",
+          "body": "一度の購入 · サブスクなし"
+        },
+        {
+          "heading": "要件ノート",
+          "body": "写真の要件は国、機関、申請の種類によって異なります。提出前に公式要件を確認してください。"
+        }
+      ],
+      "path": "ja/privacy.html"
+    },
+    {
+      "locale": "kn-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ಟೆಂಪ್ಲೇಟ್‌ಗಳು",
+        "ಮದ್ದತ",
+        "ಗೋಪ್ಯತೆ"
+      ],
+      "nav_label": "ಭಾಷೆ",
+      "language_label": "ಭಾಷೆ",
+      "support_label": "ನೆರವಿಗೆ ಹೋಗಿ",
+      "contact_heading": "ಮದ್ದತ",
+      "contact_body": "ನಿಮ್ಮ ಫೋಟೋಗಳು ನಿಮ್ಮ iPhone ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ಯಾವುದೇ ಕ್ಲೌಡ್ ಅಪ್ಲೋಡ್ ಇಲ್ಲ ಯಾವುದೇ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ",
+      "contact_button": "ಮದ್ದತ",
+      "footer_note": "ಈ ತಾಣ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಟ್ರ್ಯಾಕರ್, ಜಾಹೀರಾತು ಅಥವಾ ಅನಲಿಟಿಕ್ಸ್ ಬಳಸುವುದಿಲ್ಲ.",
+      "title": "ಗೋಪ್ಯತೆ - Snapport Lite",
+      "description": "ನಿಮ್ಮ ಫೋಟೋಗಳು ನಿಮ್ಮ iPhone ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ಯಾವುದೇ ಕ್ಲೌಡ್ ಅಪ್ಲೋಡ್ ಇಲ್ಲ ಯಾವುದೇ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ",
+      "eyebrow": "ಗೋಪ್ಯತೆ",
+      "heading": "ಗೋಪ್ಯತೆ",
+      "lead": "ನಿಮ್ಮ ಫೋಟೋಗಳು ನಿಮ್ಮ iPhone ನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ.",
+      "sections": [
+        {
+          "heading": "ಗೋಪ್ಯತೆ",
+          "body": "ಯಾವುದೇ ಖಾತೆ ಇಲ್ಲ · ಯಾವುದೇ ಜಾಹೀರಾತು ಇಲ್ಲ · ಯಾವುದೇ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ · ಯಾವುದೇ ಕ್ಲೌಡ್ ಅಪ್ಲೋಡ್ ಇಲ್ಲ"
+        },
+        {
+          "heading": "ಸಾಧನದಲ್ಲಿ ಸಂಪಾದನೆ",
+          "body": "ನಿಮ್ಮ ಫೋಟೋವನ್ನು ಸರಿಹೊಂದಿಸಲು ಸಾಧನದಲ್ಲಿ ಮುಖ ಗುರುತಿಸುವಿಕೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಯಾವುದೇ ಜೀವಶಾಸ್ತ್ರದ ಗುರುತನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ."
+        },
+        {
+          "heading": "ನೀವು ರಫ್ತು ಮತ್ತು ಹಂಚಿಕೆಯನ್ನು ನಿಯಂತ್ರಿಸುತ್ತೀರಿ",
+          "body": "ಯಾವಾಗ ಬೇಕಾದರೂ ಸ್ಥಳೀಯ ಯೋಜನೆಗಳನ್ನು ಅಳಿಸಿ"
+        },
+        {
+          "heading": "ಟೆಂಪ್ಲೇಟ್ ನವೀಕರಣಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+          "body": "Snapport Lite ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಪರಿಶೀಲನೆ ಕೇವಲ ಸಾಮಾನ್ಯ ಗಾತ್ರಗಳ ಸಾರ್ವಜನಿಕ ಪಟ್ಟಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ — ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ."
+        },
+        {
+          "heading": "ಒಂದೇ ಬಾರಿಯ ಅನ್‌ಲಾಕ್",
+          "body": "ಒಮ್ಮೆ ಖರೀದಿ · ಚಂದಾದಾರಿಕೆ ಇಲ್ಲ"
+        },
+        {
+          "heading": "ಅಗತ್ಯಗಳ ಟಿಪ್ಪಣಿ",
+          "body": "ಫೋಟೋ ಅಗತ್ಯಗಳು ದೇಶ, ಏಜೆನ್ಸಿ ಮತ್ತು ಅರ್ಜಿಯ ಪ್ರಕಾರ ಬದಲಾಗುತ್ತವೆ. ಸಲ್ಲಿಸುವ ಮೊದಲು ಅಧಿಕೃತ ಅಗತ್ಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ."
+        }
+      ],
+      "path": "kn-IN/privacy.html"
+    },
+    {
+      "locale": "ko",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "템플릿",
+        "지원",
+        "개인정보 보호"
+      ],
+      "nav_label": "언어",
+      "language_label": "언어",
+      "support_label": "지원 안내 보기",
+      "contact_heading": "지원",
+      "contact_body": "당신의 사진은 iPhone에만 저장됩니다. 클라우드 업로드 없음 추적 없음",
+      "contact_button": "지원",
+      "footer_note": "이 사이트는 제3자 추적, 광고, 분석 도구를 사용하지 않습니다.",
+      "title": "개인정보 보호 - Snapport Lite",
+      "description": "당신의 사진은 iPhone에만 저장됩니다. 클라우드 업로드 없음 추적 없음",
+      "eyebrow": "개인정보 보호",
+      "heading": "개인정보 보호",
+      "lead": "당신의 사진은 iPhone에만 저장됩니다.",
+      "sections": [
+        {
+          "heading": "개인정보 보호",
+          "body": "계정 없음 · 광고 없음 · 추적 없음 · 클라우드 업로드 없음"
+        },
+        {
+          "heading": "장치에서 편집",
+          "body": "얼굴 인식은 장치에서 실행되어 사진 정렬을 도와줍니다. 생체 정보는 저장되지 않습니다."
+        },
+        {
+          "heading": "내보내기 및 공유를 제어합니다.",
+          "body": "언제든지 로컬 프로젝트 삭제"
+        },
+        {
+          "heading": "템플릿 업데이트 확인",
+          "body": "Snapport Lite는 완전히 오프라인으로 작동합니다. 확인은 일반 크기의 공개 목록만 다운로드하며 개인 데이터는 전송되지 않습니다."
+        },
+        {
+          "heading": "한 번 구매로 잠금 해제",
+          "body": "한 번 구매 · 구독 없음"
+        },
+        {
+          "heading": "요구 사항 노트",
+          "body": "사진 요구 사항은 국가, 기관 및 신청 유형에 따라 다릅니다. 제출하기 전에 공식 요구 사항을 검토하세요."
+        }
+      ],
+      "path": "ko/privacy.html"
+    },
+    {
+      "locale": "ml-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ടെംപ്ലേറ്റുകൾ",
+        "സഹായം",
+        "സ്വകാര്യത"
+      ],
+      "nav_label": "ഭാഷ",
+      "language_label": "ഭാഷ",
+      "support_label": "പിന്തുണയിലേക്ക്",
+      "contact_heading": "സഹായം",
+      "contact_body": "നിങ്ങളുടെ ഫോട്ടോകൾ നിങ്ങളുടെ iPhone-ൽ തന്നെ തുടരുന്നു. ക്ലൗഡ് അപ്‌ലോഡ് ഇല്ല മുന്നേറ്റം ഇല്ല",
+      "contact_button": "സഹായം",
+      "footer_note": "ഈ സൈറ്റ് മൂന്നാം കക്ഷിയുടെ ട്രാക്കറുകളോ പരസ്യങ്ങളോ അനലിറ്റിക്സോ ഉപയോഗിക്കുന്നില്ല.",
+      "title": "സ്വകാര്യത - Snapport Lite",
+      "description": "നിങ്ങളുടെ ഫോട്ടോകൾ നിങ്ങളുടെ iPhone-ൽ തന്നെ തുടരുന്നു. ക്ലൗഡ് അപ്‌ലോഡ് ഇല്ല മുന്നേറ്റം ഇല്ല",
+      "eyebrow": "സ്വകാര്യത",
+      "heading": "സ്വകാര്യത",
+      "lead": "നിങ്ങളുടെ ഫോട്ടോകൾ നിങ്ങളുടെ iPhone-ൽ തന്നെ തുടരുന്നു.",
+      "sections": [
+        {
+          "heading": "സ്വകാര്യത",
+          "body": "അക്കൗണ്ട് ഇല്ല · പരസ്യങ്ങൾ ഇല്ല · മുന്നേറ്റം ഇല്ല · ക്ലൗഡ് അപ്‌ലോഡ് ഇല്ല"
+        },
+        {
+          "heading": "ഉപകരണത്തിൽ എഡിറ്റിംഗ്",
+          "body": "നിങ്ങളുടെ ഫോട്ടോ സജ്ജമാക്കാൻ സഹായിക്കുന്നതിന് ഫേസ് ഡിറ്റക്ഷൻ ഉപകരണത്തിൽ പ്രവർത്തിക്കുന്നു. ബയോമെട്രിക് ഐഡന്റിറ്റി സംഭരിച്ചിട്ടില്ല."
+        },
+        {
+          "heading": "നിങ്ങൾ എക്സ്പോർട്ട് ചെയ്യാനും പങ്കുവയ്ക്കാനും നിയന്ത്രിക്കുന്നു",
+          "body": "എപ്പോൾ വേണമെങ്കിലും പ്രാദേശിക പദ്ധതികൾ ഇല്ലാതാക്കുക"
+        },
+        {
+          "heading": "ടെംപ്ലേറ്റ് അപ്ഡേറ്റുകൾ പരിശോധിക്കുക",
+          "body": "Snapport Lite പൂർണ്ണമായും ഓഫ്‌ലൈൻ പ്രവർത്തിക്കുന്നു. പരിശോധിക്കുന്നത് സാധാരണ വലുപ്പങ്ങളുടെ ഒരു പൊതു പട്ടിക മാത്രം ഡൗൺലോഡ് ചെയ്യുന്നു — വ്യക്തിഗത ഡാറ്റ അയക്കപ്പെടുന്നില്ല."
+        },
+        {
+          "heading": "ഒറ്റത്തവണ അൺലോക്ക്",
+          "body": "ഒറ്റത്തവണ വാങ്ങൽ · സബ്സ്ക്രിപ്ഷൻ ഇല്ല"
+        },
+        {
+          "heading": "ആവശ്യകതകൾ കുറിപ്പ്",
+          "body": "ഫോട്ടോ ആവശ്യകതകൾ രാജ്യത്തിനും ഏജൻസിക്കും അപേക്ഷയുടെ തരം അനുസരിച്ച് വ്യത്യാസപ്പെടുന്നു. സമർപ്പിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ആവശ്യകതകൾ പരിശോധിക്കുക."
+        }
+      ],
+      "path": "ml-IN/privacy.html"
+    },
+    {
+      "locale": "mr-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "टेम्पलेट्स",
+        "समर्थन",
+        "गोपनीयता"
+      ],
+      "nav_label": "भाषा",
+      "language_label": "भाषा",
+      "support_label": "मदतीकडे जा",
+      "contact_heading": "समर्थन",
+      "contact_body": "तुमचे फोटो तुमच्या iPhone वर राहतात. कोणतीही क्लाउड अपलोड नाही कोणतेही ट्रॅकिंग नाही",
+      "contact_button": "समर्थन",
+      "footer_note": "हे संकेतस्थळ तिसऱ्या पक्षाचे ट्रॅकर, जाहिराती किंवा अॅनालिटिक्स वापरत नाही.",
+      "title": "गोपनीयता - Snapport Lite",
+      "description": "तुमचे फोटो तुमच्या iPhone वर राहतात. कोणतीही क्लाउड अपलोड नाही कोणतेही ट्रॅकिंग नाही",
+      "eyebrow": "गोपनीयता",
+      "heading": "गोपनीयता",
+      "lead": "तुमचे फोटो तुमच्या iPhone वर राहतात.",
+      "sections": [
+        {
+          "heading": "गोपनीयता",
+          "body": "कोणतेही खाते नाही · कोणतीही जाहिरात नाही · कोणतेही ट्रॅकिंग नाही · कोणतीही क्लाउड अपलोड नाही"
+        },
+        {
+          "heading": "डिव्हाइसवर संपादन",
+          "body": "फोटो संरेखित करण्यास मदत करण्यासाठी डिव्हाइसवर चेहरा ओळख चालतो. कोणतीही बायोमेट्रिक ओळख साठवली जात नाही."
+        },
+        {
+          "heading": "तुम्ही निर्यात आणि सामायिकरण नियंत्रित करता",
+          "body": "कधीही स्थानिक प्रकल्प हटवा"
+        },
+        {
+          "heading": "टेम्पलेट अपडेटसाठी तपासा",
+          "body": "Snapport Lite पूर्णपणे ऑफलाइन कार्य करते. तपासणे फक्त सामान्य आकारांची सार्वजनिक यादी डाउनलोड करते — कोणतीही वैयक्तिक माहिती पाठवली जात नाही."
+        },
+        {
+          "heading": "एकदाच अनलॉक",
+          "body": "एकदाच खरेदी · सदस्यता नाही"
+        },
+        {
+          "heading": "आवश्यकता नोट",
+          "body": "फोटोच्या आवश्यकता देश, एजन्सी आणि अर्जाच्या प्रकारानुसार बदलतात. कृपया सबमिट करण्यापूर्वी अधिकृत आवश्यकता पुनरावलोकन करा."
+        }
+      ],
+      "path": "mr-IN/privacy.html"
+    },
+    {
+      "locale": "ms",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Templat",
+        "Sokongan",
+        "Privasi"
+      ],
+      "nav_label": "Bahasa",
+      "language_label": "Bahasa",
+      "support_label": "Ke halaman sokongan",
+      "contact_heading": "Sokongan",
+      "contact_body": "Foto anda kekal di iPhone anda. Tiada muat naik awan Tiada penjejakan",
+      "contact_button": "Sokongan",
+      "footer_note": "Laman ini tidak menggunakan penjejak, iklan atau analitis pihak ketiga.",
+      "title": "Privasi - Snapport Lite",
+      "description": "Foto anda kekal di iPhone anda. Tiada muat naik awan Tiada penjejakan",
+      "eyebrow": "Privasi",
+      "heading": "Privasi",
+      "lead": "Foto anda kekal di iPhone anda.",
+      "sections": [
+        {
+          "heading": "Privasi",
+          "body": "Tiada akaun · Tiada iklan · Tiada penjejakan · Tiada muat naik awan"
+        },
+        {
+          "heading": "Penyuntingan di peranti",
+          "body": "Pengesanan wajah dijalankan di peranti untuk membantu menyelaraskan foto anda. Tiada identiti biometrik disimpan."
+        },
+        {
+          "heading": "Anda mengawal eksport dan perkongsian",
+          "body": "Padam projek tempatan bila-bila masa"
+        },
+        {
+          "heading": "Semak Kemas Kini Templat",
+          "body": "Snapport Lite berfungsi sepenuhnya tanpa talian. Memeriksa hanya memuat turun senarai umum saiz biasa — tiada data peribadi dihantar."
+        },
+        {
+          "heading": "Buka sekali bayar",
+          "body": "Sekali beli · tiada langganan"
+        },
+        {
+          "heading": "Nota keperluan",
+          "body": "Keperluan foto berbeza mengikut negara, agensi, dan jenis permohonan. Sila semak keperluan rasmi sebelum menghantar."
+        }
+      ],
+      "path": "ms/privacy.html"
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Sjablonen",
+        "Ondersteuning",
+        "Privacy"
+      ],
+      "nav_label": "Taal",
+      "language_label": "Taal",
+      "support_label": "Naar support",
+      "contact_heading": "Ondersteuning",
+      "contact_body": "Je foto's blijven op je iPhone. Geen cloudupload Geen tracking",
+      "contact_button": "Ondersteuning",
+      "footer_note": "Deze site gebruikt geen trackers, advertenties of analytics van derden.",
+      "title": "Privacy - Snapport Lite",
+      "description": "Je foto's blijven op je iPhone. Geen cloudupload Geen tracking",
+      "eyebrow": "Privacy",
+      "heading": "Privacy",
+      "lead": "Je foto's blijven op je iPhone.",
+      "sections": [
+        {
+          "heading": "Privacy",
+          "body": "Geen account · Geen advertenties · Geen tracking · Geen cloudupload"
+        },
+        {
+          "heading": "Bewerking op apparaat",
+          "body": "Gezichtsherkenning vindt plaats op het apparaat om je foto uit te lijnen. Er worden geen biometrische gegevens opgeslagen."
+        },
+        {
+          "heading": "Jij beheert export en delen",
+          "body": "Verwijder lokale projecten op elk moment"
+        },
+        {
+          "heading": "Controleer op Sjabloonupdates",
+          "body": "Snapport Lite werkt volledig offline. Controleren downloadt alleen een openbare lijst van veelvoorkomende formaten — er worden geen persoonlijke gegevens verzonden."
+        },
+        {
+          "heading": "Eenmalige ontgrendeling",
+          "body": "Eenmalige aankoop · geen abonnement"
+        },
+        {
+          "heading": "Vereisten opmerking",
+          "body": "Fotovereisten variëren per land, instantie en type aanvraag. Controleer de officiële vereisten voordat je indient."
+        }
+      ],
+      "path": "nl-NL/privacy.html"
+    },
+    {
+      "locale": "no",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Maler",
+        "Støtte",
+        "Personvern"
+      ],
+      "nav_label": "Språk",
+      "language_label": "Språk",
+      "support_label": "Gå til kundestøtte",
+      "contact_heading": "Støtte",
+      "contact_body": "Dine bilder forblir på din iPhone. Ingen skyopplasting Ingen sporing",
+      "contact_button": "Støtte",
+      "footer_note": "Denne siden bruker ingen sporere, annonser eller analyseverktøy fra tredjeparter.",
+      "title": "Personvern - Snapport Lite",
+      "description": "Dine bilder forblir på din iPhone. Ingen skyopplasting Ingen sporing",
+      "eyebrow": "Personvern",
+      "heading": "Personvern",
+      "lead": "Dine bilder forblir på din iPhone.",
+      "sections": [
+        {
+          "heading": "Personvern",
+          "body": "Ingen konto · Ingen annonser · Ingen sporing · Ingen skyopplasting"
+        },
+        {
+          "heading": "Redigering på enheten",
+          "body": "Ansiktsgjenkjenning kjører på enheten for å hjelpe med å justere bildet ditt. Ingen biometrisk identitet lagres."
+        },
+        {
+          "heading": "Du kontrollerer eksport og deling",
+          "body": "Slett lokale prosjekter når som helst"
+        },
+        {
+          "heading": "Sjekk for Maloppdateringer",
+          "body": "Snapport Lite fungerer fullt offline. Sjekking laster bare ned en offentlig liste over vanlige størrelser — ingen personlige data sendes."
+        },
+        {
+          "heading": "Engangsopplåsing",
+          "body": "Engangskjøp · uten abonnement"
+        },
+        {
+          "heading": "Kravnotat",
+          "body": "Fotokrav varierer etter land, byrå og type søknad. Vennligst se gjennom de offisielle kravene før innsending."
+        }
+      ],
+      "path": "no/privacy.html"
+    },
+    {
+      "locale": "or-IN",
+      "surface": "index",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ଟେମ୍ପଲେଟ୍",
+        "ସହଯୋଗ",
+        "ଗୋପନୀୟତା"
+      ],
+      "nav_label": "ଭାଷା",
+      "language_label": "ଭାଷା",
+      "support_label": "ସହାୟତା ଦେଖନ୍ତୁ",
+      "contact_heading": "ଆମ ସହ ଯୋଗାଯୋଗ",
+      "contact_body": "ଆପଣ କ’ଣ କରିଥିଲେ, କ’ଣ ଘଟିଲା, ଡିଭାଇସ୍ ମଡେଲ୍, iOS ଓ App ସଂସ୍କରଣ ଲେଖନ୍ତୁ। ବ୍ୟକ୍ତିଗତ ବିଷୟବସ୍ତୁ ପଠାନ୍ତୁ ନାହିଁ।",
+      "contact_button": "ଆମ ସହ ଯୋଗାଯୋଗ",
+      "footer_note": "ଏହି ସ୍ଥିର ସାଇଟ୍‌ରେ ଆନାଲିଟିକ୍ସ, ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକିଂ ନାହିଁ।",
+      "title": "Snapport Lite - ବାସାରେ ID ଫଟୋ ସୃଷ୍ଟି କରନ୍ତୁ",
+      "description": "ପାସପୋର୍ଟ, ଭିସା, ଓ ଡକ୍ୟୁମେଣ୍ଟ ଫଟୋଗୁଡିକୁ ମାର୍ଗଦର୍ଶକ ଆକାର, ପୃଷ୍ଠଭୂମି ଉପକରଣ, ଓ ପ୍ରିଣ୍ଟ-ରେଡି ନିର୍ୟାତ ସହିତ ତିଆରି କରନ୍ତୁ. | ମାଗଣା ସଂସ୍କରଣ · 1ଟି ରପ୍ତାନି ସମର୍ଥିତ",
+      "eyebrow": "ଆପଣଙ୍କର ଫଟୋଗୁଡିକ ଆପଣଙ୍କ iPhone ରେ ରହିବ।",
+      "heading": "ବାସାରେ ID ଫଟୋ ସୃଷ୍ଟି କରନ୍ତୁ",
+      "lead": "ପାସପୋର୍ଟ, ଭିସା ଓ ID ଫଟୋ — ପ୍ରିଣ୍ଟ-ରେଡି.",
+      "sections": [
+        {
+          "heading": "ମାଗଣା ସଂସ୍କରଣ · 1ଟି ରପ୍ତାନି ସମର୍ଥିତ",
+          "body": "ଏକଥର କ୍ରୟ · ସଦସ୍ୟତା ନାହିଁ"
+        },
+        {
+          "heading": "ଟେମ୍ପଲେଟ୍",
+          "body": "Snapport Lite ସମ୍ପୂର୍ଣ୍ଣ ଅଫ୍ଲାଇନ୍ କାମ କରେ। ଯାଞ୍ଚ କରିବା ମାତ୍ର ସାଧାରଣ ଆକାରର ଏକ ସାଧାରଣ ତାଲିକା ଡାଉନଲୋଡ୍ କରେ — କୌଣସି ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ ପଠାଯାଉନି।"
+        },
+        {
+          "heading": "କ୍ରପ୍ & ସମନ୍ୱୟ କରନ୍ତୁ",
+          "body": "ଆପଣଙ୍କର ମୁହଁକୁ ଗାଇଡ୍‌ରେ ସମନ୍ୱୟ କରନ୍ତୁ। ଆବଶ୍ୟକତା ବିଭିନ୍ନ ହୋଇପାରେ, ତେଣୁ ଦାଖଲ କରିବା ପୂର୍ବରୁ ଅଧିକାରୀ ନିୟମଗୁଡିକୁ ପୁନର୍ବିବେଚନା କରନ୍ତୁ।"
+        },
+        {
+          "heading": "ପୃଷ୍ଠଭୂମି",
+          "body": "ପୃଷ୍ଠଭୂମି ହଟାଇବାକୁ ପୁନର୍ବିଚାର ଆବଶ୍ୟକ ହୋଇପାରେ।"
+        },
+        {
+          "heading": "ସମଯୋଜନ କରନ୍ତୁ",
+          "body": "ଆଧିକାରିକ ଡୋକ୍ୟୁମେଣ୍ଟ ପାଇଁ ଆପଣଙ୍କର ଦେଖାକୁ ପ୍ରାକୃତିକ ରଖନ୍ତୁ।"
+        },
+        {
+          "heading": "ନିର୍ୟାତ",
+          "body": "ଗୋଟିଏ ଫଟୋ କିମ୍ବା ମୁଦ୍ରଣ ପତ୍ର ନିର୍ୟାତ କରନ୍ତୁ।"
+        }
+      ],
+      "store_url": "https://apps.apple.com/in/app/id6792856304?pt=118326163&ct=iag_data_or_in&mt=8",
+      "store_label": "App Store ରୁ Snapport Lite ପାଆନ୍ତୁ",
+      "path": "or-IN/index.html"
+    },
+    {
+      "locale": "or-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ଟେମ୍ପଲେଟ୍",
+        "ସହଯୋଗ",
+        "ଗୋପନୀୟତା"
+      ],
+      "nav_label": "ଭାଷା",
+      "language_label": "ଭାଷା",
+      "support_label": "ସହାୟତା ଦେଖନ୍ତୁ",
+      "contact_heading": "ସହଯୋଗ",
+      "contact_body": "ଆପଣଙ୍କର ଫଟୋଗୁଡିକ ଆପଣଙ୍କ iPhone ରେ ରହିବ। କୌଣସି କ୍ଲାଉଡ୍ ଅପଲୋଡ୍ ନାହିଁ କୌଣସି ଟ୍ରାକିଂ ନାହିଁ",
+      "contact_button": "ସହଯୋଗ",
+      "footer_note": "ଏହି ସ୍ଥିର ସାଇଟ୍‌ରେ ଆନାଲିଟିକ୍ସ, ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକିଂ ନାହିଁ।",
+      "title": "ଗୋପନୀୟତା - Snapport Lite",
+      "description": "ଆପଣଙ୍କର ଫଟୋଗୁଡିକ ଆପଣଙ୍କ iPhone ରେ ରହିବ। କୌଣସି କ୍ଲାଉଡ୍ ଅପଲୋଡ୍ ନାହିଁ କୌଣସି ଟ୍ରାକିଂ ନାହିଁ",
+      "eyebrow": "ଗୋପନୀୟତା",
+      "heading": "ଗୋପନୀୟତା",
+      "lead": "ଆପଣଙ୍କର ଫଟୋଗୁଡିକ ଆପଣଙ୍କ iPhone ରେ ରହିବ।",
+      "sections": [
+        {
+          "heading": "ଗୋପନୀୟତା",
+          "body": "କୌଣସି ଖାତା ନାହିଁ · କୌଣସି ବିଜ୍ଞାପନ ନାହିଁ · କୌଣସି ଟ୍ରାକିଂ ନାହିଁ · କୌଣସି କ୍ଲାଉଡ୍ ଅପଲୋଡ୍ ନାହିଁ"
+        },
+        {
+          "heading": "ଉପକରଣରେ ସମ୍ପାଦନା",
+          "body": "ମୁହଁ ଚିହ୍ନଟ ଉପକରଣରେ ଚାଲିଥାଏ ଯାହା ଆପଣଙ୍କର ଫଟୋକୁ ସମନ୍ୱୟ କରିବାରେ ସାହାଯ୍ୟ କରେ. କୌଣସି ବାୟୋମେଟ୍ରିକ୍ ପରିଚୟ ସଞ୍ଚୟ ହୁଏନି."
+        },
+        {
+          "heading": "ଆପଣ ନିର୍ୟାତ ଓ ଅଂଶୀଦାରୀକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ",
+          "body": "କେବେ ମଧ୍ୟ ସ୍ଥାନୀୟ ପ୍ରକଳ୍ପ ମିଟାନ୍ତୁ"
+        },
+        {
+          "heading": "ଟେମ୍ପଲେଟ୍ ଅଦ୍ୟତନ ପାଇଁ ଯାଞ୍ଚ କରନ୍ତୁ",
+          "body": "Snapport Lite ସମ୍ପୂର୍ଣ୍ଣ ଅଫ୍ଲାଇନ୍ କାମ କରେ। ଯାଞ୍ଚ କରିବା ମାତ୍ର ସାଧାରଣ ଆକାରର ଏକ ସାଧାରଣ ତାଲିକା ଡାଉନଲୋଡ୍ କରେ — କୌଣସି ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ ପଠାଯାଉନି।"
+        },
+        {
+          "heading": "ଏକଥର ଅନଲକ୍",
+          "body": "ଏକଥର କ୍ରୟ · ସଦସ୍ୟତା ନାହିଁ"
+        },
+        {
+          "heading": "ଆବଶ୍ୟକତା ଟୀକା",
+          "body": "ଫଟୋର ଆବଶ୍ୟକତା ଦେଶ, ଏଜେନ୍ସୀ, ଏବଂ ଆବେଦନ ପ୍ରକାର ଅନୁସାରେ ବିଭିନ୍ନ। ଦାଖଲ କରିବା ପୂର୍ବରୁ ଅଧିକାରୀକ ଆବଶ୍ୟକତା ଯାଞ୍ଚ କରନ୍ତୁ।"
+        }
+      ],
+      "path": "or-IN/privacy.html"
+    },
+    {
+      "locale": "or-IN",
+      "surface": "support",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ଟେମ୍ପଲେଟ୍",
+        "ସହଯୋଗ",
+        "ଗୋପନୀୟତା"
+      ],
+      "nav_label": "ଭାଷା",
+      "language_label": "ଭାଷା",
+      "support_label": "ସହାୟତା ଦେଖନ୍ତୁ",
+      "contact_heading": "ସହଯୋଗ",
+      "contact_body": "କିପରି ଏକ ଭଲ ID ଫଟୋ ତୁଳିବେ ଗୋଟିଏ ଫଟୋ କିମ୍ବା ମୁଦ୍ରଣ ପତ୍ର ନିର୍ୟାତ କରନ୍ତୁ। ଦାଖଲ କରିବା ପୂର୍ବରୁ ସଦା ଅଧିକାରୀକ ଆବଶ୍ୟକତା ଯାଞ୍ଚ କରନ୍ତୁ।",
+      "contact_button": "ସହଯୋଗ",
+      "footer_note": "ଏହି ସ୍ଥିର ସାଇଟ୍‌ରେ ଆନାଲିଟିକ୍ସ, ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକିଂ ନାହିଁ।",
+      "title": "ସହଯୋଗ - Snapport Lite",
+      "description": "କିପରି ଏକ ଭଲ ID ଫଟୋ ତୁଳିବେ ଗୋଟିଏ ଫଟୋ କିମ୍ବା ମୁଦ୍ରଣ ପତ୍ର ନିର୍ୟାତ କରନ୍ତୁ। ଦାଖଲ କରିବା ପୂର୍ବରୁ ସଦା ଅଧିକାରୀକ ଆବଶ୍ୟକତା ଯାଞ୍ଚ କରନ୍ତୁ।",
+      "eyebrow": "ସହଯୋଗ",
+      "heading": "ସହଯୋଗ",
+      "lead": "କିପରି ଏକ ଭଲ ID ଫଟୋ ତୁଳିବେ",
+      "sections": [
+        {
+          "heading": "କିପରି ଏକ ଭଲ ID ଫଟୋ ତୁଳିବେ",
+          "body": "କୌଣସି କଠିନ ଛାୟା ନଥିବା ସହଜ, ସମ ଆଲୋକ ବ୍ୟବହାର କରନ୍ତୁ। ଗୋଟିଏ ସାଧାରଣ, ହାଲୁକା ରଙ୍ଗର ଦିୱାର ସام୍ନାରେ ଦଣ୍ଡିବା। ଛାୟା ରୋକିବା ପାଇଁ ଦିୱାରରୁ ଦୂରେ ଚାଲନ୍ତୁ। ଗୋଟିଏ ସ୍ୱାଭାବିକ ଅଭିବ୍ୟକ୍ତି ଏବଂ ଦେଖା ରଖ। ଦାଖଲ କରିବା ପୂର୍ବରୁ ସଦା ଅଧିକାରୀକ ଆବଶ୍ୟକତା ଯାଞ୍ଚ କରନ୍ତୁ। ଫଟୋ କାଗଜରେ ସଠିକ୍ DPIରେ ମୁଦ୍ରଣ କରନ୍ତୁ। ଗୋଟିଏ ଫଟୋ କିମ୍ବା ମୁଦ୍ରଣ ପତ୍ର ନିର୍ୟାତ କରନ୍ତୁ।"
+        }
+      ],
+      "path": "or-IN/support.html"
+    },
+    {
+      "locale": "pa-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "ਟੈਂਪਲੇਟ",
+        "ਸਹਾਇਤਾ",
+        "ਗੋਪਨੀਯਤਾ"
+      ],
+      "nav_label": "ਭਾਸ਼ਾ",
+      "language_label": "ਭਾਸ਼ਾ",
+      "support_label": "ਸਹਾਇਤਾ ਵੱਲ ਜਾਓ",
+      "contact_heading": "ਸਹਾਇਤਾ",
+      "contact_body": "ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ ਤੁਹਾਡੇ iPhone 'ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ. ਕੋਈ ਕਲਾਉਡ ਅਪਲੋਡ ਨਹੀਂ ਕੋਈ ਟ੍ਰੈਕਿੰਗ ਨਹੀਂ",
+      "contact_button": "ਸਹਾਇਤਾ",
+      "footer_note": "ਇਹ ਸਾਈਟ ਕਿਸੇ ਤੀਜੀ ਧਿਰ ਦੇ ਟ੍ਰੈਕਰ, ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਐਨਾਲਿਟਿਕਸ ਨਹੀਂ ਵਰਤਦੀ।",
+      "title": "ਗੋਪਨੀਯਤਾ - Snapport Lite",
+      "description": "ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ ਤੁਹਾਡੇ iPhone 'ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ. ਕੋਈ ਕਲਾਉਡ ਅਪਲੋਡ ਨਹੀਂ ਕੋਈ ਟ੍ਰੈਕਿੰਗ ਨਹੀਂ",
+      "eyebrow": "ਗੋਪਨੀਯਤਾ",
+      "heading": "ਗੋਪਨੀਯਤਾ",
+      "lead": "ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ ਤੁਹਾਡੇ iPhone 'ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ.",
+      "sections": [
+        {
+          "heading": "ਗੋਪਨੀਯਤਾ",
+          "body": "ਕੋਈ ਖਾਤਾ ਨਹੀਂ · ਕੋਈ ਵਿਗਿਆਪਨ ਨਹੀਂ · ਕੋਈ ਟ੍ਰੈਕਿੰਗ ਨਹੀਂ · ਕੋਈ ਕਲਾਉਡ ਅਪਲੋਡ ਨਹੀਂ"
+        },
+        {
+          "heading": "ਡਿਵਾਈਸ 'ਤੇ ਸੰਪਾਦਨ",
+          "body": "ਚਿਹਰਾ ਪਛਾਣ ਡਿਵਾਈਸ 'ਤੇ ਚੱਲਦੀ ਹੈ ਤਾਂ ਜੋ ਤੁਹਾਡੀ ਫੋਟੋ ਨੂੰ ਸਹੀ ਕੀਤਾ ਜਾ ਸਕੇ। ਕੋਈ ਬਾਇਓਮੇਟ੍ਰਿਕ ਪਛਾਣ ਸਟੋਰ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ।"
+        },
+        {
+          "heading": "ਤੁਸੀਂ ਨਿਕਾਸ ਅਤੇ ਸਾਂਝਾ ਕਰਨ ਦਾ ਨਿਯੰਤਰਣ ਕਰਦੇ ਹੋ",
+          "body": "ਕਦੇ ਵੀ ਸਥਾਨਕ ਪ੍ਰੋਜੈਕਟ ਮਿਟਾਓ"
+        },
+        {
+          "heading": "ਟੈਂਪਲੇਟ ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ",
+          "body": "Snapport Lite ਪੂਰੀ ਤਰ੍ਹਾਂ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦਾ ਹੈ। ਜਾਂਚ ਸਿਰਫ ਆਮ ਆਕਾਰਾਂ ਦੀ ਇੱਕ ਜਨਤਕ ਸੂਚੀ ਡਾਊਨਲੋਡ ਕਰਦੀ ਹੈ — ਕੋਈ ਨਿੱਜੀ ਡੇਟਾ ਭੇਜਿਆ ਨਹੀਂ ਜਾਂਦਾ।"
+        },
+        {
+          "heading": "ਇੱਕ ਵਾਰ ਦਾ ਅਨਲੌਕ",
+          "body": "ਇੱਕ ਵਾਰ ਖਰੀਦੋ · ਕੋਈ ਗਾਹਕੀ ਨਹੀਂ"
+        },
+        {
+          "heading": "ਲੋੜਾਂ ਦਾ ਨੋਟ",
+          "body": "ਫੋਟੋ ਦੀਆਂ ਲੋੜਾਂ ਦੇਸ਼, ਏਜੰਸੀ ਅਤੇ ਅਰਜ਼ੀ ਦੇ ਕਿਸਮ ਦੇ ਅਨੁਸਾਰ ਵੱਖ-ਵੱਖ ਹੁੰਦੀਆਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਜਮ੍ਹਾਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਅਧਿਕਾਰਿਕ ਲੋੜਾਂ ਦੀ ਸਮੀਖਿਆ ਕਰੋ।"
+        }
+      ],
+      "path": "pa-IN/privacy.html"
+    },
+    {
+      "locale": "pl",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Szablony",
+        "Wsparcie",
+        "Prywatność"
+      ],
+      "nav_label": "Język",
+      "language_label": "Język",
+      "support_label": "Przejdź do pomocy",
+      "contact_heading": "Wsparcie",
+      "contact_body": "Twoje zdjęcia pozostają na Twoim iPhonie. Brak przesyłania do chmury Brak śledzenia",
+      "contact_button": "Wsparcie",
+      "footer_note": "Ta strona nie korzysta z zewnętrznych narzędzi śledzących, reklam ani analityki.",
+      "title": "Prywatność - Snapport Lite",
+      "description": "Twoje zdjęcia pozostają na Twoim iPhonie. Brak przesyłania do chmury Brak śledzenia",
+      "eyebrow": "Prywatność",
+      "heading": "Prywatność",
+      "lead": "Twoje zdjęcia pozostają na Twoim iPhonie.",
+      "sections": [
+        {
+          "heading": "Prywatność",
+          "body": "Brak konta · Brak reklam · Brak śledzenia · Brak przesyłania do chmury"
+        },
+        {
+          "heading": "Edycja na urządzeniu",
+          "body": "Wykrywanie twarzy działa na urządzeniu, aby pomóc w wyrównaniu zdjęcia. Żaden identyfikator biometryczny nie jest przechowywany."
+        },
+        {
+          "heading": "Ty kontrolujesz eksport i udostępnianie",
+          "body": "Usuń lokalne projekty w dowolnym momencie"
+        },
+        {
+          "heading": "Sprawdź aktualizacje szablonów",
+          "body": "Snapport Lite działa w trybie offline. Sprawdzanie pobiera tylko publiczną listę popularnych rozmiarów — żadne dane osobowe nie są wysyłane."
+        },
+        {
+          "heading": "Jednorazowe odblokowanie",
+          "body": "Jednorazowy zakup · bez subskrypcji"
+        },
+        {
+          "heading": "Notatka o wymaganiach",
+          "body": "Wymagania dotyczące zdjęć różnią się w zależności od kraju, agencji i typu aplikacji. Proszę zapoznać się z oficjalnymi wymaganiami przed złożeniem."
+        }
+      ],
+      "path": "pl/privacy.html"
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Modelos",
+        "Suporte",
+        "Privacidade"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir para o suporte",
+      "contact_heading": "Suporte",
+      "contact_body": "Suas fotos ficam no seu iPhone. Sem envio à nuvem Sem rastreamento",
+      "contact_button": "Suporte",
+      "footer_note": "Este site não usa rastreamento, publicidade ou análise de terceiros.",
+      "title": "Privacidade - Snapport Lite",
+      "description": "Suas fotos ficam no seu iPhone. Sem envio à nuvem Sem rastreamento",
+      "eyebrow": "Privacidade",
+      "heading": "Privacidade",
+      "lead": "Suas fotos ficam no seu iPhone.",
+      "sections": [
+        {
+          "heading": "Privacidade",
+          "body": "Sem conta · Sem anúncios · Sem rastreamento · Sem envio à nuvem"
+        },
+        {
+          "heading": "Edição no dispositivo",
+          "body": "A detecção de rosto roda no dispositivo para alinhar sua foto. Nenhum dado biométrico é armazenado."
+        },
+        {
+          "heading": "Você controla exportação e compartilhamento",
+          "body": "Exclua projetos locais quando quiser"
+        },
+        {
+          "heading": "Verificar atualizações de modelos",
+          "body": "O Snapport Lite funciona offline. A verificação só baixa uma lista pública de tamanhos; nenhum dado pessoal é enviado."
+        },
+        {
+          "heading": "Desbloqueio único",
+          "body": "Compra única · sem assinatura"
+        },
+        {
+          "heading": "Nota sobre requisitos",
+          "body": "Os requisitos da foto variam por país, órgão e tipo de solicitação. Sempre confira as regras oficiais antes de enviar."
+        }
+      ],
+      "path": "pt-BR/privacy.html"
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Modelos",
+        "Suporte",
+        "Privacidade"
+      ],
+      "nav_label": "Idioma",
+      "language_label": "Idioma",
+      "support_label": "Ir para o apoio",
+      "contact_heading": "Suporte",
+      "contact_body": "Suas fotos ficam no seu iPhone. Sem envio à nuvem Sem rastreamento",
+      "contact_button": "Suporte",
+      "footer_note": "Este site não usa rastreadores, publicidade nem análises de terceiros.",
+      "title": "Privacidade - Snapport Lite",
+      "description": "Suas fotos ficam no seu iPhone. Sem envio à nuvem Sem rastreamento",
+      "eyebrow": "Privacidade",
+      "heading": "Privacidade",
+      "lead": "Suas fotos ficam no seu iPhone.",
+      "sections": [
+        {
+          "heading": "Privacidade",
+          "body": "Sem conta · Sem anúncios · Sem rastreamento · Sem envio à nuvem"
+        },
+        {
+          "heading": "Edição no dispositivo",
+          "body": "A detecção de rosto roda no dispositivo para alinhar sua foto. Nenhum dado biométrico é armazenado."
+        },
+        {
+          "heading": "Você controla exportação e compartilhamento",
+          "body": "Exclua projetos locais quando quiser"
+        },
+        {
+          "heading": "Verificar atualizações de modelos",
+          "body": "O Snapport Lite funciona offline. A verificação só baixa uma lista pública de tamanhos; nenhum dado pessoal é enviado."
+        },
+        {
+          "heading": "Desbloqueio único",
+          "body": "Compra única · sem assinatura"
+        },
+        {
+          "heading": "Nota sobre requisitos",
+          "body": "Os requisitos da foto variam por país, órgão e tipo de solicitação. Sempre confira as regras oficiais antes de enviar."
+        }
+      ],
+      "path": "pt-PT/privacy.html"
+    },
+    {
+      "locale": "ro",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Șabloane",
+        "Asistență",
+        "Confidențialitate"
+      ],
+      "nav_label": "Limbă",
+      "language_label": "Limba",
+      "support_label": "Mergi la asistență",
+      "contact_heading": "Asistență",
+      "contact_body": "Fotografiile tale rămân pe iPhone-ul tău. Fără încărcare în cloud Fără urmărire",
+      "contact_button": "Asistență",
+      "footer_note": "Acest site nu folosește instrumente de urmărire, reclame sau analize de la terți.",
+      "title": "Confidențialitate - Snapport Lite",
+      "description": "Fotografiile tale rămân pe iPhone-ul tău. Fără încărcare în cloud Fără urmărire",
+      "eyebrow": "Confidențialitate",
+      "heading": "Confidențialitate",
+      "lead": "Fotografiile tale rămân pe iPhone-ul tău.",
+      "sections": [
+        {
+          "heading": "Confidențialitate",
+          "body": "Fără cont · Fără reclame · Fără urmărire · Fără încărcare în cloud"
+        },
+        {
+          "heading": "Editare pe dispozitiv",
+          "body": "Detectarea feței se desfășoară pe dispozitiv pentru a ajuta la alinierea fotografiei tale. Nici o identitate biometrică nu este stocată."
+        },
+        {
+          "heading": "Tu controlezi exportul și partajarea",
+          "body": "Șterge proiectele locale oricând"
+        },
+        {
+          "heading": "Verifică actualizările șablonului",
+          "body": "Snapport Lite funcționează complet offline. Verificarea descarcă doar o listă publică de dimensiuni comune — nu se trimite date personale."
+        },
+        {
+          "heading": "Deblocare unică",
+          "body": "Achiziție unică · fără abonament"
+        },
+        {
+          "heading": "Notă despre cerințe",
+          "body": "Cerințele pentru fotografii variază în funcție de țară, agenție și tipul de aplicație. Te rugăm să revizuiești cerințele oficiale înainte de a trimite."
+        }
+      ],
+      "path": "ro/privacy.html"
+    },
+    {
+      "locale": "ru",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Шаблоны",
+        "Поддержка",
+        "Конфиденциальность"
+      ],
+      "nav_label": "Язык",
+      "language_label": "Язык",
+      "support_label": "Перейти к поддержке",
+      "contact_heading": "Поддержка",
+      "contact_body": "Ваши фото остаются на iPhone. Без загрузки в облако Без слежки",
+      "contact_button": "Поддержка",
+      "footer_note": "Этот сайт не использует сторонние трекеры, рекламу и аналитику.",
+      "title": "Конфиденциальность - Snapport Lite",
+      "description": "Ваши фото остаются на iPhone. Без загрузки в облако Без слежки",
+      "eyebrow": "Конфиденциальность",
+      "heading": "Конфиденциальность",
+      "lead": "Ваши фото остаются на iPhone.",
+      "sections": [
+        {
+          "heading": "Конфиденциальность",
+          "body": "Без аккаунта · Без рекламы · Без слежки · Без загрузки в облако"
+        },
+        {
+          "heading": "Обработка на устройстве",
+          "body": "Распознавание лица выполняется на устройстве для выравнивания фото. Биометрия не сохраняется."
+        },
+        {
+          "heading": "Вы управляете экспортом и отправкой",
+          "body": "Удаляйте локальные проекты в любой момент"
+        },
+        {
+          "heading": "Проверить обновления шаблонов",
+          "body": "Snapport Lite работает офлайн. Проверка лишь загружает публичный список размеров; личные данные не отправляются."
+        },
+        {
+          "heading": "Разовая разблокировка",
+          "body": "Одна покупка · без подписки"
+        },
+        {
+          "heading": "О требованиях",
+          "body": "Требования зависят от страны, ведомства и типа заявления. Всегда проверяйте официальные правила перед отправкой."
+        }
+      ],
+      "path": "ru/privacy.html"
+    },
+    {
+      "locale": "sk",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Šablóny",
+        "Podpora",
+        "Ochrana súkromia"
+      ],
+      "nav_label": "Jazyk",
+      "language_label": "Jazyk",
+      "support_label": "Prejsť na podporu",
+      "contact_heading": "Podpora",
+      "contact_body": "Vaše fotografie zostávajú na vašom iPhone. Žiadne nahrávanie do cloudu Žiadne sledovanie",
+      "contact_button": "Podpora",
+      "footer_note": "Táto stránka nepoužíva sledovacie nástroje, reklamu ani analytiku tretích strán.",
+      "title": "Ochrana súkromia - Snapport Lite",
+      "description": "Vaše fotografie zostávajú na vašom iPhone. Žiadne nahrávanie do cloudu Žiadne sledovanie",
+      "eyebrow": "Ochrana súkromia",
+      "heading": "Ochrana súkromia",
+      "lead": "Vaše fotografie zostávajú na vašom iPhone.",
+      "sections": [
+        {
+          "heading": "Ochrana súkromia",
+          "body": "Žiadny účet · Žiadne reklamy · Žiadne sledovanie · Žiadne nahrávanie do cloudu"
+        },
+        {
+          "heading": "Úpravy na zariadení",
+          "body": "Detekcia tváre prebieha na zariadení, aby pomohla zarovnať vašu fotografiu. Žiadna biometrická identita nie je uložená."
+        },
+        {
+          "heading": "Ovládate export a zdieľanie",
+          "body": "Odstráňte miestne projekty kedykoľvek"
+        },
+        {
+          "heading": "Skontrolovať aktualizácie šablón",
+          "body": "Snapport Lite funguje plne offline. Kontrola len sťahuje verejný zoznam bežných veľkostí — žiadne osobné údaje nie sú odosielané."
+        },
+        {
+          "heading": "Jednorazové odomknutie",
+          "body": "Jednorazový nákup · bez predplatného"
+        },
+        {
+          "heading": "Poznámka k požiadavkám",
+          "body": "Požiadavky na fotografie sa líšia podľa krajiny, agentúry a typu žiadosti. Pred odoslaním si prosím preštudujte oficiálne požiadavky."
+        }
+      ],
+      "path": "sk/privacy.html"
+    },
+    {
+      "locale": "sl-SI",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Predloge",
+        "Podpora",
+        "Zasebnost"
+      ],
+      "nav_label": "Jezik",
+      "language_label": "Jezik",
+      "support_label": "Na podporo",
+      "contact_heading": "Podpora",
+      "contact_body": "Vaše fotografije ostanejo na vašem iPhonu. Brez nalaganja v oblak Brez sledenja",
+      "contact_button": "Podpora",
+      "footer_note": "Ta stran ne uporablja sledilnikov, oglasov ali analitike tretjih oseb.",
+      "title": "Zasebnost - Snapport Lite",
+      "description": "Vaše fotografije ostanejo na vašem iPhonu. Brez nalaganja v oblak Brez sledenja",
+      "eyebrow": "Zasebnost",
+      "heading": "Zasebnost",
+      "lead": "Vaše fotografije ostanejo na vašem iPhonu.",
+      "sections": [
+        {
+          "heading": "Zasebnost",
+          "body": "Brez računa · Brez oglasov · Brez sledenja · Brez nalaganja v oblak"
+        },
+        {
+          "heading": "Urejanje na napravi",
+          "body": "Prepoznavanje obraza deluje na napravi, da pomaga poravnati tvojo fotografijo. Nobena biometrična identiteta ni shranjena."
+        },
+        {
+          "heading": "Ti nadzoruješ izvoz in deljenje",
+          "body": "Izbriši lokalne projekte kadarkoli"
+        },
+        {
+          "heading": "Preveri posodobitve predlog",
+          "body": "Snapport Lite deluje popolnoma brez povezave. Preverjanje samo prenese javni seznam običajnih velikosti — osebni podatki se ne pošiljajo."
+        },
+        {
+          "heading": "Enkratno odklepanje",
+          "body": "Enkratni nakup · brez naročnine"
+        },
+        {
+          "heading": "Opomba o zahtevah",
+          "body": "Zahteve za fotografije se razlikujejo glede na državo, agencijo in vrsto prijave. Pred oddajo preverite uradne zahteve."
+        }
+      ],
+      "path": "sl-SI/privacy.html"
+    },
+    {
+      "locale": "sv",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Mallar",
+        "Support",
+        "Integritet"
+      ],
+      "nav_label": "Språk",
+      "language_label": "Språk",
+      "support_label": "Till supporten",
+      "contact_heading": "Support",
+      "contact_body": "Dina foton stannar på din iPhone. Ingen molnuppladdning Ingen spårning",
+      "contact_button": "Support",
+      "footer_note": "Den här webbplatsen använder inga spårare, annonser eller analysverktyg från tredje part.",
+      "title": "Integritet - Snapport Lite",
+      "description": "Dina foton stannar på din iPhone. Ingen molnuppladdning Ingen spårning",
+      "eyebrow": "Integritet",
+      "heading": "Integritet",
+      "lead": "Dina foton stannar på din iPhone.",
+      "sections": [
+        {
+          "heading": "Integritet",
+          "body": "Inget konto · Inga annonser · Ingen spårning · Ingen molnuppladdning"
+        },
+        {
+          "heading": "Redigering på enheten",
+          "body": "Ansiktsigenkänning körs på enheten för att hjälpa till att justera ditt foto. Ingen biometrisk identitet lagras."
+        },
+        {
+          "heading": "Du kontrollerar export och delning",
+          "body": "Ta bort lokala projekt när som helst"
+        },
+        {
+          "heading": "Kontrollera malluppdateringar",
+          "body": "Snapport Lite fungerar helt offline. Kontrollera laddar endast ner en offentlig lista över vanliga storlekar — inga personuppgifter skickas."
+        },
+        {
+          "heading": "Engångsupplåsning",
+          "body": "Engångsköp · ingen prenumeration"
+        },
+        {
+          "heading": "Kravnotis",
+          "body": "Fotokrav varierar beroende på land, myndighet och typ av ansökan. Vänligen granska de officiella kraven innan du skickar in."
+        }
+      ],
+      "path": "sv/privacy.html"
+    },
+    {
+      "locale": "ta-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "விடைகள்",
+        "ஆதரவு",
+        "தனியுரிமை"
+      ],
+      "nav_label": "மொழி",
+      "language_label": "மொழி",
+      "support_label": "ஆதரவுக்குச் செல்ல",
+      "contact_heading": "ஆதரவு",
+      "contact_body": "உங்கள் புகைப்படங்கள் உங்கள் iPhone இல் இருக்கும். மூலக்கூட்டத்தில் ஏற்றுமதி இல்லை எந்த கண்காணிப்பு இல்லை",
+      "contact_button": "ஆதரவு",
+      "footer_note": "இந்தத் தளம் மூன்றாம் தரப்பு கண்காணிப்பு, விளம்பரம் அல்லது பகுப்பாய்வுக் கருவிகளைப் பயன்படுத்துவதில்லை.",
+      "title": "தனியுரிமை - Snapport Lite",
+      "description": "உங்கள் புகைப்படங்கள் உங்கள் iPhone இல் இருக்கும். மூலக்கூட்டத்தில் ஏற்றுமதி இல்லை எந்த கண்காணிப்பு இல்லை",
+      "eyebrow": "தனியுரிமை",
+      "heading": "தனியுரிமை",
+      "lead": "உங்கள் புகைப்படங்கள் உங்கள் iPhone இல் இருக்கும்.",
+      "sections": [
+        {
+          "heading": "தனியுரிமை",
+          "body": "கணக்கு இல்லை · விளம்பரங்கள் இல்லை · எந்த கண்காணிப்பு இல்லை · மூலக்கூட்டத்தில் ஏற்றுமதி இல்லை"
+        },
+        {
+          "heading": "சாதனத்தில் திருத்தம்",
+          "body": "உங்கள் புகைப்படத்தை சரிசெய்ய உதவுவதற்காக சாதனத்தில் முக கண்டறிதல் இயங்குகிறது. எந்த உயிரியல் அடையாளமும் சேமிக்கப்படவில்லை."
+        },
+        {
+          "heading": "நீங்கள் ஏற்றுமதி மற்றும் பகிர்வை கட்டுப்படுத்துகிறீர்கள்",
+          "body": "எப்போது வேண்டுமானாலும் உள்ளூர் திட்டங்களை நீக்கு"
+        },
+        {
+          "heading": "மாதிரிகள் புதுப்பிப்புகளை சரிபார்க்கவும்",
+          "body": "Snapport Lite முழுமையாக ஆஃப்லைனில் செயல்படுகிறது. சரிபார்த்தல் பொதுவான அளவுகளின் பட்டியலை மட்டுமே பதிவிறக்கம் செய்கிறது — எந்த தனிப்பட்ட தரவுகளும் அனுப்பப்படவில்லை."
+        },
+        {
+          "heading": "ஒருமுறை திறத்தல்",
+          "body": "ஒருமுறை வாங்குங்கள் · சந்தா இல்லை"
+        },
+        {
+          "heading": "தேவைகள் குறிப்பு",
+          "body": "புகைப்பட தேவைகள் நாடு, நிறுவனம் மற்றும் விண்ணப்ப வகை அடிப்படையில் மாறுபடுகின்றன. சமர்ப்பிக்கும் முன் அதிகாரப்பூர்வ தேவைகளை பரிசீலிக்கவும்."
+        }
+      ],
+      "path": "ta-IN/privacy.html"
+    },
+    {
+      "locale": "te-IN",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "టెంప్లేట్లు",
+        "మద్దతు",
+        "గోప్యత"
+      ],
+      "nav_label": "భాష",
+      "language_label": "భాష",
+      "support_label": "సహాయానికి వెళ్లండి",
+      "contact_heading": "మద్దతు",
+      "contact_body": "మీ ఫోటోలు మీ iPhoneలోనే ఉంటాయి. క్లౌడ్ అప్లోడ్ లేదు ఏ ట్రాకింగ్ లేదు",
+      "contact_button": "మద్దతు",
+      "footer_note": "ఈ సైట్ మూడో పక్షం ట్రాకర్లు, ప్రకటనలు లేదా అనలిటిక్స్ వాడదు.",
+      "title": "గోప్యత - Snapport Lite",
+      "description": "మీ ఫోటోలు మీ iPhoneలోనే ఉంటాయి. క్లౌడ్ అప్లోడ్ లేదు ఏ ట్రాకింగ్ లేదు",
+      "eyebrow": "గోప్యత",
+      "heading": "గోప్యత",
+      "lead": "మీ ఫోటోలు మీ iPhoneలోనే ఉంటాయి.",
+      "sections": [
+        {
+          "heading": "గోప్యత",
+          "body": "ఖాతా లేదు · ప్రకటనలు లేవు · ఏ ట్రాకింగ్ లేదు · క్లౌడ్ అప్లోడ్ లేదు"
+        },
+        {
+          "heading": "పరికరంపై ఎడిటింగ్",
+          "body": "మీ ఫోటోను సరిపోల్చడానికి ఫేస్ డిటెక్షన్ పరికరంపై నడుస్తుంది. బయోమెట్రిక్ గుర్తింపు నిల్వ చేయబడదు."
+        },
+        {
+          "heading": "మీరు ఎగుమతి మరియు పంచుకోవడాన్ని నియంత్రిస్తారు",
+          "body": "ఎప్పుడైనా స్థానిక ప్రాజెక్టులను తొలగించండి"
+        },
+        {
+          "heading": "టెంప్లేట్ నవీకరణలను తనిఖీ చేయండి",
+          "body": "Snapport Lite పూర్తిగా ఆఫ్‌లైన్‌లో పనిచేస్తుంది. తనిఖీ చేయడం కేవలం సాధారణ పరిమాణాల పబ్లిక్ జాబితాను డౌన్‌లోడ్ చేస్తుంది — వ్యక్తిగత డేటా పంపబడదు."
+        },
+        {
+          "heading": "ఒక్కసారి అన్‌లాక్",
+          "body": "ఒక్కసారి కొనండి · చందా లేదు"
+        },
+        {
+          "heading": "అవసరాల గమనిక",
+          "body": "ఫోటో అవసరాలు దేశం, ఏజెన్సీ మరియు దరఖాస్తు రకానికి అనుగుణంగా మారుతాయి. దాఖలు చేయడానికి ముందు అధికారిక అవసరాలను సమీక్షించండి."
+        }
+      ],
+      "path": "te-IN/privacy.html"
+    },
+    {
+      "locale": "th",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "แม่แบบ",
+        "การสนับสนุน",
+        "ความเป็นส่วนตัว"
+      ],
+      "nav_label": "ภาษา",
+      "language_label": "ภาษา",
+      "support_label": "ไปที่หน้าสนับสนุน",
+      "contact_heading": "การสนับสนุน",
+      "contact_body": "รูปของคุณอยู่บน iPhone ไม่อัปโหลดขึ้นคลาวด์ ไม่มีการติดตาม",
+      "contact_button": "การสนับสนุน",
+      "footer_note": "เว็บไซต์นี้ไม่ใช้ตัวติดตาม โฆษณา หรือเครื่องมือวิเคราะห์ของบุคคลที่สาม",
+      "title": "ความเป็นส่วนตัว - Snapport Lite",
+      "description": "รูปของคุณอยู่บน iPhone ไม่อัปโหลดขึ้นคลาวด์ ไม่มีการติดตาม",
+      "eyebrow": "ความเป็นส่วนตัว",
+      "heading": "ความเป็นส่วนตัว",
+      "lead": "รูปของคุณอยู่บน iPhone",
+      "sections": [
+        {
+          "heading": "ความเป็นส่วนตัว",
+          "body": "ไม่มีบัญชี · ไม่มีโฆษณา · ไม่มีการติดตาม · ไม่อัปโหลดขึ้นคลาวด์"
+        },
+        {
+          "heading": "แก้ไขบนอุปกรณ์",
+          "body": "การตรวจจับใบหน้าทำงานบนอุปกรณ์เพื่อจัดแนวรูป ไม่มีการเก็บข้อมูลชีวมิติ"
+        },
+        {
+          "heading": "คุณควบคุมการส่งออกและการแชร์",
+          "body": "ลบโปรเจกต์ในเครื่องได้ทุกเมื่อ"
+        },
+        {
+          "heading": "ตรวจหาการอัปเดตแม่แบบ",
+          "body": "Snapport Lite ทำงานออฟไลน์ การตรวจสอบจะดาวน์โหลดเพียงรายการขนาดสาธารณะ ไม่มีการส่งข้อมูลส่วนตัว"
+        },
+        {
+          "heading": "ปลดล็อกครั้งเดียว",
+          "body": "ซื้อครั้งเดียว · ไม่มีสมาชิก"
+        },
+        {
+          "heading": "หมายเหตุข้อกำหนด",
+          "body": "ข้อกำหนดแตกต่างกันตามประเทศ หน่วยงาน และประเภทคำขอ โปรดตรวจสอบกฎอย่างเป็นทางการก่อนยื่นเสมอ"
+        }
+      ],
+      "path": "th/privacy.html"
+    },
+    {
+      "locale": "tr",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Şablonlar",
+        "Destek",
+        "Gizlilik"
+      ],
+      "nav_label": "Dil",
+      "language_label": "Dil",
+      "support_label": "Desteğe git",
+      "contact_heading": "Destek",
+      "contact_body": "Fotoğraflarınız iPhone'unuzda kalır. Buluta yükleme yok İzleme yok",
+      "contact_button": "Destek",
+      "footer_note": "Bu site üçüncü taraf izleyici, reklam veya analiz aracı kullanmaz.",
+      "title": "Gizlilik - Snapport Lite",
+      "description": "Fotoğraflarınız iPhone'unuzda kalır. Buluta yükleme yok İzleme yok",
+      "eyebrow": "Gizlilik",
+      "heading": "Gizlilik",
+      "lead": "Fotoğraflarınız iPhone'unuzda kalır.",
+      "sections": [
+        {
+          "heading": "Gizlilik",
+          "body": "Hesap yok · Reklam yok · İzleme yok · Buluta yükleme yok"
+        },
+        {
+          "heading": "Cihazda düzenleme",
+          "body": "Yüz algılama, fotoğrafı hizalamak için cihazda çalışır. Biyometrik veri saklanmaz."
+        },
+        {
+          "heading": "Dışa aktarmayı ve paylaşımı siz yönetirsiniz",
+          "body": "Yerel projeleri istediğiniz zaman silin"
+        },
+        {
+          "heading": "Şablon güncellemelerini denetle",
+          "body": "Snapport Lite çevrimdışı çalışır. Denetim yalnızca herkese açık bir boyut listesi indirir; kişisel veri gönderilmez."
+        },
+        {
+          "heading": "Tek seferlik kilit açma",
+          "body": "Tek seferlik satın alma · abonelik yok"
+        },
+        {
+          "heading": "Gereksinim notu",
+          "body": "Gereksinimler ülkeye, kuruma ve başvuru türüne göre değişir. Göndermeden önce resmi kuralları her zaman kontrol edin."
+        }
+      ],
+      "path": "tr/privacy.html"
+    },
+    {
+      "locale": "uk",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Шаблони",
+        "Підтримка",
+        "Конфіденційність"
+      ],
+      "nav_label": "Мова",
+      "language_label": "Мова",
+      "support_label": "Перейти до підтримки",
+      "contact_heading": "Підтримка",
+      "contact_body": "Ваші фотографії залишаються на вашому iPhone. Без завантаження в хмару Без відстеження",
+      "contact_button": "Підтримка",
+      "footer_note": "Цей сайт не використовує сторонні трекери, рекламу чи аналітику.",
+      "title": "Конфіденційність - Snapport Lite",
+      "description": "Ваші фотографії залишаються на вашому iPhone. Без завантаження в хмару Без відстеження",
+      "eyebrow": "Конфіденційність",
+      "heading": "Конфіденційність",
+      "lead": "Ваші фотографії залишаються на вашому iPhone.",
+      "sections": [
+        {
+          "heading": "Конфіденційність",
+          "body": "Без облікового запису · Без реклами · Без відстеження · Без завантаження в хмару"
+        },
+        {
+          "heading": "Редагування на пристрої",
+          "body": "Визначення обличчя працює на пристрої, щоб допомогти вирівняти вашу фотографію. Біометрична інформація не зберігається."
+        },
+        {
+          "heading": "Ви контролюєте експорт та обмін",
+          "body": "Видаляйте локальні проекти в будь-який час"
+        },
+        {
+          "heading": "Перевірити оновлення шаблонів",
+          "body": "Snapport Lite працює повністю офлайн. Перевірка лише завантажує публічний список загальних розмірів — жодні особисті дані не надсилаються."
+        },
+        {
+          "heading": "Разове розблокування",
+          "body": "Одноразова покупка · без підписки"
+        },
+        {
+          "heading": "Примітка про вимоги",
+          "body": "Вимоги до фотографій різняться в залежності від країни, агентства та типу заявки. Будь ласка, ознайомтеся з офіційними вимогами перед поданням."
+        }
+      ],
+      "path": "uk/privacy.html"
+    },
+    {
+      "locale": "ur-PK",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "سانچے",
+        "مدد",
+        "رازداری"
+      ],
+      "nav_label": "زبان",
+      "language_label": "زبان",
+      "support_label": "سپورٹ پر جائیں",
+      "contact_heading": "مدد",
+      "contact_body": "آپ کی تصاویر آپ کے آئی فون پر رہتی ہیں. کوئی کلاؤڈ اپ لوڈ نہیں کوئی ٹریکنگ نہیں",
+      "contact_button": "مدد",
+      "footer_note": "یہ سائٹ کسی تیسرے فریق کے ٹریکر، اشتہارات یا اینالیٹکس استعمال نہیں کرتی۔",
+      "title": "رازداری - Snapport Lite",
+      "description": "آپ کی تصاویر آپ کے آئی فون پر رہتی ہیں. کوئی کلاؤڈ اپ لوڈ نہیں کوئی ٹریکنگ نہیں",
+      "eyebrow": "رازداری",
+      "heading": "رازداری",
+      "lead": "آپ کی تصاویر آپ کے آئی فون پر رہتی ہیں.",
+      "sections": [
+        {
+          "heading": "رازداری",
+          "body": "کوئی اکاؤنٹ نہیں · کوئی اشتہارات نہیں · کوئی ٹریکنگ نہیں · کوئی کلاؤڈ اپ لوڈ نہیں"
+        },
+        {
+          "heading": "ڈیوائس پر ترمیم",
+          "body": "چہرے کی شناخت ڈیوائس پر چلتی ہے تاکہ آپ کی تصویر کو سیدھ میں لانے میں مدد ملے۔ کوئی بایومیٹرک شناخت محفوظ نہیں کی جاتی۔"
+        },
+        {
+          "heading": "آپ برآمد اور شیئرنگ کو کنٹرول کرتے ہیں",
+          "body": "کبھی بھی مقامی منصوبے حذف کریں"
+        },
+        {
+          "heading": "ٹیمپلیٹ کی تازہ کاریوں کی جانچ کریں",
+          "body": "Snapport Lite مکمل طور پر آف لائن کام کرتا ہے۔ جانچ صرف عام سائزوں کی عوامی فہرست ڈاؤن لوڈ کرتی ہے — کوئی ذاتی ڈیٹا بھیجا نہیں جاتا۔"
+        },
+        {
+          "heading": "ایک بار کی اَن لاک",
+          "body": "ایک بار خریدیں · کوئی رکنیت نہیں"
+        },
+        {
+          "heading": "ضروریات کا نوٹ",
+          "body": "تصویر کی ضروریات ملک، ایجنسی، اور درخواست کی قسم کے لحاظ سے مختلف ہوتی ہیں۔ براہ کرم جمع کرانے سے پہلے سرکاری ضروریات کا جائزہ لیں۔"
+        }
+      ],
+      "path": "ur-PK/privacy.html"
+    },
+    {
+      "locale": "vi",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "Mẫu",
+        "Hỗ trợ",
+        "Quyền riêng tư"
+      ],
+      "nav_label": "Ngôn ngữ",
+      "language_label": "Ngôn ngữ",
+      "support_label": "Tới trang hỗ trợ",
+      "contact_heading": "Hỗ trợ",
+      "contact_body": "Ảnh của bạn ở lại trên iPhone. Không tải lên đám mây Không theo dõi",
+      "contact_button": "Hỗ trợ",
+      "footer_note": "Trang này không dùng công cụ theo dõi, quảng cáo hay phân tích của bên thứ ba.",
+      "title": "Quyền riêng tư - Snapport Lite",
+      "description": "Ảnh của bạn ở lại trên iPhone. Không tải lên đám mây Không theo dõi",
+      "eyebrow": "Quyền riêng tư",
+      "heading": "Quyền riêng tư",
+      "lead": "Ảnh của bạn ở lại trên iPhone.",
+      "sections": [
+        {
+          "heading": "Quyền riêng tư",
+          "body": "Không tài khoản · Không quảng cáo · Không theo dõi · Không tải lên đám mây"
+        },
+        {
+          "heading": "Chỉnh sửa trên thiết bị",
+          "body": "Nhận diện khuôn mặt chạy trên thiết bị để căn ảnh. Không lưu dữ liệu sinh trắc."
+        },
+        {
+          "heading": "Bạn kiểm soát việc xuất và chia sẻ",
+          "body": "Xoá dự án cục bộ bất cứ lúc nào"
+        },
+        {
+          "heading": "Kiểm tra cập nhật mẫu",
+          "body": "Snapport Lite hoạt động ngoại tuyến. Việc kiểm tra chỉ tải danh sách kích thước công khai; không gửi dữ liệu cá nhân."
+        },
+        {
+          "heading": "Mở khóa một lần",
+          "body": "Mua một lần · không thuê bao"
+        },
+        {
+          "heading": "Lưu ý về yêu cầu",
+          "body": "Yêu cầu khác nhau theo quốc gia, cơ quan và loại hồ sơ. Luôn kiểm tra quy định chính thức trước khi nộp."
+        }
+      ],
+      "path": "vi/privacy.html"
+    },
+    {
+      "locale": "zh-Hans",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "模板",
+        "支持",
+        "隐私"
+      ],
+      "nav_label": "语言",
+      "language_label": "语言",
+      "support_label": "查看支持说明",
+      "contact_heading": "支持",
+      "contact_body": "你的照片只保存在 iPhone 上。 不上传到云服务 无跟踪",
+      "contact_button": "支持",
+      "footer_note": "本站不使用第三方跟踪、广告或分析工具。",
+      "title": "隐私 - Snapport Lite",
+      "description": "你的照片只保存在 iPhone 上。 不上传到云服务 无跟踪",
+      "eyebrow": "隐私",
+      "heading": "隐私",
+      "lead": "你的照片只保存在 iPhone 上。",
+      "sections": [
+        {
+          "heading": "隐私",
+          "body": "无需账号 · 无广告 · 无跟踪 · 不上传到云服务"
+        },
+        {
+          "heading": "设备端编辑",
+          "body": "人脸检测仅在设备上运行，用于辅助对齐照片，不会保存任何生物识别身份信息。"
+        },
+        {
+          "heading": "由你决定何时导出和分享",
+          "body": "可随时删除设备上的项目"
+        },
+        {
+          "heading": "检查模板更新",
+          "body": "Snapport Lite 可完全离线运行。检查更新只会下载公开的常用尺寸列表，不会发送任何个人数据。"
+        },
+        {
+          "heading": "一次性解锁",
+          "body": "一次购买 · 无需订阅"
+        },
+        {
+          "heading": "规定说明",
+          "body": "照片规格因国家、机构和申请类型而异，提交前请确认官方要求。"
+        }
+      ],
+      "path": "zh-Hans/privacy.html"
+    },
+    {
+      "locale": "zh-Hant",
+      "surface": "privacy",
+      "app_name": "Snapport Lite",
+      "nav": [
+        "範本",
+        "支援",
+        "隱私"
+      ],
+      "nav_label": "語言",
+      "language_label": "語言",
+      "support_label": "查看支援說明",
+      "contact_heading": "支援",
+      "contact_body": "你的照片只留在 iPhone。 無雲端上傳 無追蹤",
+      "contact_button": "支援",
+      "footer_note": "本站不使用第三方追蹤、廣告或分析工具。",
+      "title": "隱私 - Snapport Lite",
+      "description": "你的照片只留在 iPhone。 無雲端上傳 無追蹤",
+      "eyebrow": "隱私",
+      "heading": "隱私",
+      "lead": "你的照片只留在 iPhone。",
+      "sections": [
+        {
+          "heading": "隱私",
+          "body": "無帳號 · 無廣告 · 無追蹤 · 無雲端上傳"
+        },
+        {
+          "heading": "裝置端編輯",
+          "body": "臉部偵測只在裝置端執行，用來協助對齊照片，不會儲存任何生物辨識身分資料。"
+        },
+        {
+          "heading": "由你決定何時匯出與分享",
+          "body": "隨時刪除裝置內的專案"
+        },
+        {
+          "heading": "檢查範本更新",
+          "body": "Snapport Lite 完全離線運作。檢查更新只會下載公開的常用尺寸清單，不會傳送任何個人資料。"
+        },
+        {
+          "heading": "一次性解鎖",
+          "body": "一次購買 · 無需訂閱"
+        },
+        {
+          "heading": "規格說明",
+          "body": "照片規格因國家、機關與申請類型而異，送件前請確認官方規定。"
+        }
+      ],
+      "path": "zh-Hant/privacy.html"
+    }
+  ]
+}
