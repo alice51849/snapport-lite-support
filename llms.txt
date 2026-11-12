@@ -14,4 +14,8 @@
 - [Support and contact](https://open.cait518.cc/snapport-lite-support/support.html)
 - [Privacy policy](https://open.cait518.cc/snapport-lite-support/privacy.html)
 
+<!-- sqe-blitz:start -->
+- [Foto 3x4 no iPhone: perguntas antes de baixar (Português)](https://open.cait518.cc/snapport-lite-support/foto-3x4-app-perguntas.pt-BR.html)
+<!-- sqe-blitz:end -->
+
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
