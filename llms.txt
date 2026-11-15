@@ -16,6 +16,7 @@
 
 <!-- sqe-blitz:start -->
 - [Foto 3x4 no iPhone: perguntas antes de baixar (Português)](https://open.cait518.cc/snapport-lite-support/foto-3x4-app-perguntas.pt-BR.html)
+- [What is Snapport Lite? Passport and ID photo maker: who it is for, pricing, differences (English)](https://open.cait518.cc/snapport-lite-support/what-is-snapportlite.html)
 <!-- sqe-blitz:end -->
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
