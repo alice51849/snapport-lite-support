@@ -81,6 +81,21 @@
         <h2 data-i18n="privacyOnDevice">On-device editing</h2>
         <p data-i18n="privacyFace">Face detection runs on device to help align your photo. No biometric identity is stored.</p>
 
+        <h2 id="face-data">Face data (iOS app)</h2>
+        <p><em>Section updated 2026-11-16. This section applies to the Snapport Lite iOS app on the App Store.</em></p>
+        <h3 id="face-data-collected">1. What face data the app uses</h3>
+        <p>When you take or choose a portrait photo, the app uses Apple's on-device Vision framework to find the face in that photo. The only face data the app uses is: (a) the position and size of the face rectangle in the photo, (b) the approximate positions of the left and right eyes, (c) the number of faces found and the detection confidence, and (d) a person-outline mask that separates the person from the background. All of these are geometric values relative to the photo. The app does not perform facial recognition or identification, does not create a face template, faceprint or any other biometric identifier, does not compare faces between photos, and does not use Face ID or the TrueDepth camera.</p>
+        <h3 id="face-data-use">2. How face data is used</h3>
+        <p>Face data is used only inside the photo editor, for the photo you are editing: to draw the crop guides, to center and scale the face automatically for the photo size you picked, to tell you when no face or more than one face is found, and to replace or clean up the background. It is not used for advertising, analytics, tracking, profiling, authentication, or any other purpose.</p>
+        <h3 id="face-data-sharing">3. Sharing and third parties</h3>
+        <p>Face data is never shared with, sold to, or disclosed to the developer or any third party. It is never uploaded or transmitted off your device. The app contains no third-party SDKs, no ads, and no analytics. Its only network requests are Apple's StoreKit purchase and restore transactions and the optional "Check for Template Updates" button, which downloads a public list of photo sizes and sends no personal data, photos, or face data.</p>
+        <h3 id="face-data-storage">4. Where face data is stored</h3>
+        <p>Face data is computed and held only in your device's memory while the photo is open in the editor. It is never written to storage, never saved in your projects, and never sent to any server. The photos you choose to keep as projects (the original photo, the edited photo, and a thumbnail) are stored only in the app's private storage on your device; like other app data, they may be included in your own iPhone or iPad backup if you have device backup turned on. The developer has no access to them.</p>
+        <h3 id="face-data-retention">5. How long face data is retained</h3>
+        <p>Face data is retained only while that photo is open in the editor. It is discarded when you close the editor, choose another photo, or quit the app. The developer retains no face data at any time. Your saved project photos remain on your device until you delete them.</p>
+        <h3 id="face-data-deletion">6. Deletion</h3>
+        <p>Because face data is never saved, there is no stored face data to delete. You can delete any project in the app, delete all projects at once in Settings, or delete the app, which removes all of its local data from your device. Photos you exported to the Photos app or shared are kept or removed by you in those places.</p>
+
         <h2 data-i18n="privacyControl">You control export and sharing</h2>
         <p data-i18n="privacyDelete">Delete local projects at any time</p>
 
