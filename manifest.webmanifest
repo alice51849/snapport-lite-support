@@ -1,6 +1,6 @@
 {
-  "name": "Snapport Lite: Take ID Photos",
-  "short_name": "Snapport Lite: Take ID Photos",
+  "name": "Snapport Lite: ID Photo Sizes",
+  "short_name": "Snapport Lite: ID Photo Sizes",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -1,6 +1,6 @@
-# Snapport Lite: Take ID Photos support
+# Snapport Lite: ID Photo Sizes support
 
-> Official support, help and privacy pages for Snapport Lite: Take ID Photos, an iOS app by Lumi Studio.
+> Official support, help and privacy pages for Snapport Lite: ID Photo Sizes, an iOS app by Lumi Studio.
 
 - App Store: https://apps.apple.com/app/id6792856304
 - Platform: iOS
